@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>帐号设置</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="../../plugin/layui/css/layui.css">
+  <link rel="stylesheet" href="../../css/global.css">
+</head>
+<body>
+
+<div class="fly-header layui-bg-black">
+  <div class="layui-container">
+
+    <!--logo-->
+    <a class="fly-name" href="../index.html" style="" title="首页">
+      <i class="layui-icon">&#xe68e;</i><img src="../../images/logo.png">
+    </a>
+
+    <!--重要链接-->
+    <ul class="layui-nav fly-nav layui-hide-xs">
+      <li class="layui-nav-item layui-this">
+        <a href="#"><i class="iconfont icon-renzheng"></i>加群</a>
+      </li>
+      <li class="layui-nav-item layui-this">
+        <a href="#"><i class="iconfont icon-renzheng"></i>广告洽谈</a>
+      </li>
+    </ul>
+
+    <!--登录窗口-->
+    <ul class="layui-nav fly-nav-user">
+
+      <!-- 登录后的状态 -->
+      <li class="layui-nav-item">
+        <a class="fly-nav-avatar" href="javascript:;">
+          <cite class="layui-hide-xs">贤心</cite>
+          <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg">
+        </a>
+        <dl class="layui-nav-child">
+          <dd><a href="set.html"><i class="layui-icon">&#xe620;</i>基本设置</a></dd>
+          <dd><a href="collect.html"><i class="iconfont icon-tongzhi" style="top: 4px;"></i>我的收藏</a></dd>
+          <hr style="margin: 5px 0;">
+          <dd><a href="../index.html" style="text-align: center;">退出</a></dd>
+        </dl>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="layui-container fly-marginTop fly-user-main">
+
+  <!--nav导航-->
+  <ul class="layui-nav layui-nav-tree layui-inline" lay-filter="user">
+    <li class="layui-nav-item">
+      <a href="collect.html">
+        <i class="layui-icon">&#xe67a;</i>
+        我的收藏
+      </a>
+    </li>
+    <li class="layui-nav-item layui-this">
+      <a href="set.html">
+        <i class="layui-icon">&#xe620;</i>
+        基本设置
+      </a>
+    </li>
+  </ul>
+
+  <!--移动端弹出nav导航-->
+  <div class="site-tree-mobile layui-hide">
+    <i class="layui-icon">&#xe602;</i>
+  </div>
+  <div class="site-mobile-shade"></div>
+
+  <!--主体-->
+  <div class="fly-panel fly-panel-user" pad20>
+    <div class="layui-tab layui-tab-brief">
+      <!--nav-->
+      <ul class="layui-tab-title">
+        <li class="layui-this">我的资料</li>
+        <li>头像</li>
+        <li>密码</li>
+      </ul>
+
+      <!--content-->
+      <div class="layui-tab-content" style="padding: 20px 0;">
+
+        <div class="layui-form layui-form-pane layui-tab-item layui-show">
+          <div class="layui-form-item">
+            <label class="layui-form-label">昵称</label>
+            <div class="layui-input-inline">
+              <input type="text" name="username" autocomplete="off"  value="" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <button class="layui-btn"lay-submit>确认修改</button>
+          </div>
+        </div>
+
+        <div class="layui-tab-item">
+          <div class="avatar-add">
+            <p>建议尺寸168*168，支持jpg、png、gif，最大不能超过50KB</p>
+            <button type="button" class="layui-btn upload-img">
+              <i class="layui-icon">&#xe67c;</i>上传头像
+            </button>
+            <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg">
+            <span class="loading"></span>
+          </div>
+        </div>
+
+        <div class=" layui-form layui-form-pane layui-tab-item ">
+          <div class="layui-form-item">
+            <label class="layui-form-label">当前密码</label>
+            <div class="layui-input-inline">
+              <input type="password" name="nowpass" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">新密码</label>
+            <div class="layui-input-inline">
+              <input type="password"  name="pass" autocomplete="off" placeholder="6到16个字符" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">确认密码</label>
+            <div class="layui-input-inline">
+              <input type="password" name="repass" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <button class="layui-btn" lay-submit>确认修改</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="fly-footer">
+  <p>
+    <a href="https://www.99yangmao.com/" >
+      99羊毛社区
+    </a>
+    2019 &copy;
+    <a href="https://www.99yangmao.com/" >
+      99yangmao.com 出品
+    </a>
+  </p>
+</div>
+
+<script src="../../plugin/layui/layui.js"></script>
+<script src="../../js/common.js"></script>
+
+</body>
+</html>

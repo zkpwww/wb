@@ -1,0 +1,364 @@
+/*@@公共属性-----------------------------------------*/
+.k-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: nowrap;
+}
+
+.k-overflow-twe {
+    display: block !important;
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.k-head {
+    position: fixed;
+    display: block;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: .42rem;
+    line-height: .42rem;
+    font-size: 0.15rem;
+    text-align: center;
+    border-bottom: 1px solid #F2F2F2;
+    background-color: #ffffff;
+    overflow: hidden;
+    max-width: 640px;
+    color: #333333;
+}
+
+.k-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: .42rem;
+    width: .42rem;
+}
+
+.k-title {
+    position: relative;
+    width: 100%;
+    padding: 0 .5rem;
+}
+
+.k-cancle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: .5rem;
+}
+
+.k-back:before {
+    content: '';
+    width: .1rem;
+    height: .1rem;
+    position: absolute;
+    top: 50%;
+    left: .15rem;
+    margin-top: -.05rem;
+    border: 1px solid #333333;
+    border-bottom: none;
+    border-left: none;
+    z-index: 2;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg)
+}
+
+.k-wrap {
+    margin-top: .42rem;
+    font-size: .12rem;
+    color: #333333;
+}
+
+/*@@首页.html-------------------------------------------------------------------------------------*/
+.k-index-wrap {
+    margin-top: .42rem;
+    overflow: hidden;
+}
+
+.k-index-nav {
+    display: flex;
+    overflow-x: auto;
+    font-size: .15rem;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 640px;
+    z-index: 9999;
+}
+
+.k-index-nav .item {
+    position: relative;
+    height: .42rem;
+    min-width: 25%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+}
+
+
+.k-index-nav .k-in {
+    color: #E450F1 !important;
+}
+
+.k-index-nav .k-in:after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: .02rem;
+    bottom: 0;
+    left: 5%;
+    background: #E450F1;
+}
+
+.k-index-banner {
+    position: relative;
+    margin: .1rem;
+}
+
+.k-index-banner-tips {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: .3rem;
+    margin-top: -.1rem;
+    line-height: .3rem;
+    padding: 0 .15rem;
+    color: white;
+    background: #DC1906;
+}
+
+.k-index-banner-main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 1.75rem;
+    overflow: hidden;
+}
+
+.k-index-banner-main li {
+    flex: none;
+    width: 100%;
+}
+
+.k-index-banner-main img {
+    width: 100%;
+    height: 1.75rem;
+}
+
+.k-index-banner-page {
+    position: absolute;
+    bottom: .1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.k-index-banner-page ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.k-index-banner-page li {
+    width: .1rem;
+    height: .1rem;
+    border-radius: 100%;
+    margin: 0 .05rem;
+    background: white;
+    font-size: 0;
+}
+
+.k-index-banner-page .on {
+    background: #DC1906 !important;
+}
+
+.k-index-main {
+    margin: .1rem;
+    padding: 0 .1rem;
+    background: white;
+    overflow: hidden;
+}
+
+.k-index-main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .15rem;
+    font-weight: bold;
+    min-height: .45rem;
+}
+
+.k-index-row1 {
+    display: flex;
+    align-items: center;
+    background: #F5F5F5;
+    margin-bottom: .1rem;
+}
+
+.k-index-row1 img {
+    flex: none;
+    display: block;
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
+.k-index-row1-col {
+    flex: 1;
+    flex-wrap: wrap;
+    white-space: initial;
+    font-size: .14rem;
+    margin: .1rem .1rem;
+    line-height: .2rem;
+}
+
+.k-index-row2 {
+    display: flex;
+    align-items: center;
+    background: #F5F5F5;
+    margin-bottom: .2rem;
+}
+
+.k-index-row2 img {
+    flex: none;
+    display: block;
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
+.k-index-row2 a {
+    color: #0BAFFC;
+}
+
+.k-index-row2-col {
+    flex: 1;
+    flex-wrap: wrap;
+    white-space: initial;
+    font-size: .14rem;
+    margin: .1rem;
+    line-height: .23rem;
+}
+
+/*@@化妆培训.html--------------------------------------*/
+.k-list-wrap {
+    margin: .52rem .1rem .2rem .1rem;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.k-list-row {
+    width: 1.75rem;
+    padding: 0 .05rem;
+    background: white;
+    word-break: break-all;
+    margin-bottom: .1rem;
+}
+
+.k-list-row img{
+    width: 100%;
+    height: 1.5rem;
+    display: block;
+}
+
+.k-list-title{
+    min-height: .42rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: .15rem;
+    color: black;
+    padding: .1rem;
+}
+
+.k-list-info{
+    line-height: .23rem;
+    font-size: .14rem;
+    padding: .1rem;
+    height: .6rem;
+    overflow: hidden;
+    margin-bottom: .05rem;
+    color: #333333;
+}
+
+/*@@详情.html----------------------------------------------------------*/
+
+.k-detail-wrap{
+    margin-top: .52rem;
+    padding: .1rem .15rem;
+    background: white;
+}
+
+.k-detail-wrap img{
+    width: 100%;
+}
+
+.k-detail-title{
+    color: black;
+    padding: .12rem .5rem;
+    font-size: .16rem;
+    text-align: center;
+    line-height: .26rem;
+}
+
+.k-detail-text{
+    line-height: .22rem;
+    font-size: .14rem;
+    color: #333333;
+    letter-spacing: .02rem;
+}
+
+
+/*@@美甲培训.html-----------------------------------*/
+.k-mani-wrap {
+    margin: .52rem .1rem .2rem .1rem;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.k-mani-row {
+    width:100%;
+    padding: 0 .05rem;
+    background: white;
+    word-break: break-all;
+    margin-bottom: .1rem;
+}
+
+.k-mani-row img{
+    width: 100%;
+    height: 3.95rem;
+    display: block;
+}
+
+.k-mani-title{
+    min-height: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: .16rem;
+    color: black;
+    padding: .1rem;
+}
+
+.k-mani-info{
+    line-height: .23rem;
+    font-size: .14rem;
+    padding: .1rem;
+    margin-bottom: .05rem;
+}
+

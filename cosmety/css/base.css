@@ -1,0 +1,15 @@
+*{box-sizing: border-box;-webkit-box-sizing: border-box;-webkit-tap-highlight-color:transparent;}
+body{-webkit-user-select:none;-webkit-overflow-scrolling:touch;-webkit-text-size-adjust: none;-webkit-touch-callout:none;font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;font-size: 12px;background-color: #F6F6F6;color: #333333; max-width: 640px;margin: 0 auto!important;}
+html, body, p, a, small,strong,dl, dt, dd, ol, ul, li, label, table,tr, th, td ,textarea,input,select,button,textarea{ margin:0; padding:0; }
+input,a,button,select,img,label{-webkit-appearance: none;outline:none;box-shadow: none;-webkit-box-shadow: none;}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ color:#ccc; }
+input,select,textarea,button{font-family:inherit;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;}
+img{border: none;}
+a:hover{text-decoration:none;}
+ul,ol,li{list-style:none;}
+:focus{outline: none}
+select{background: none}
+img[src=""],img:not([src]){opacity:0;}
+::-webkit-scrollbar {display: none;}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>文章</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="填写网页内容描述"/>
+  <meta name="keywords" content="填写网页搜索关键词"/>
+  <meta name="author" content="作者">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=0"/>
+  <script src="../js/rem.js"></script>
+  <script src="../js/template.js"></script>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/mescroll.min.css">
+  <link rel="stylesheet" href="../css/swiper-3.3.1.min.css">
+  <style>
+    .swiper-container {
+      position: fixed;
+      top: .84rem;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .mescroll {
+      padding: .1rem;
+    }
+  </style>
+</head>
+
+<body>
+<div class="k-head">
+  <div class="k-title k-overflow">文章</div>
+</div>
+
+<ul class="k-article-nav" id="scrollxContent">
+  <li class="k-in" i="0">首页</li>
+  <li i="1">奶粉</li>
+  <li i="2">面膜</li>
+  <li i="3">图书</li>
+  <li i="4">果汁</li>
+  <li i="5">奶瓶</li>
+  <li i="6">美素</li>
+  <li i="7">璐拉</li>
+  <li i="8">启赋</li>
+  <li i="9">雅培</li>
+  <li i="10">花王</li>
+  <li i="11">韩蜜</li>
+</ul>
+
+<!--轮播-->
+<div id="swiper" class="swiper-container">
+  <div id="swiperWrapper" class="swiper-wrapper">
+
+    <!--首页-->
+    <div id="mescroll0" class="swiper-slide mescroll">
+      <ul id="dataList0" class="data-list"></ul>
+    </div>
+
+    <!--奶粉-->
+    <div id="mescroll1" class="swiper-slide mescroll">
+      <ul id="dataList1" class="data-list"></ul>
+    </div>
+
+    <!--面膜-->
+    <div id="mescroll2" class="swiper-slide mescroll">
+      <ul id="dataList2" class="data-list"></ul>
+    </div>
+
+    <!--图书-->
+    <div id="mescroll3" class="swiper-slide mescroll">
+      <ul id="dataList3" class="data-list"></ul>
+    </div>
+
+    <!--果汁-->
+    <div id="mescroll4" class="swiper-slide mescroll">
+      <ul id="dataList4" class="data-list"></ul>
+    </div>
+
+    <!--奶瓶-->
+    <div id="mescroll5" class="swiper-slide mescroll">
+      <ul id="dataList5" class="data-list"></ul>
+    </div>
+
+    <!--美素-->
+    <div id="mescroll6" class="swiper-slide mescroll">
+      <ul id="dataList6" class="data-list"></ul>
+    </div>
+
+    <!--璐拉-->
+    <div id="mescroll7" class="swiper-slide mescroll">
+      <ul id="dataList7" class="data-list"></ul>
+    </div>
+
+    <!--启赋-->
+    <div id="mescroll8" class="swiper-slide mescroll">
+      <ul id="dataList8" class="data-list"></ul>
+    </div>
+
+    <!--雅培-->
+    <div id="mescroll9" class="swiper-slide mescroll">
+      <ul id="dataList9" class="data-list"></ul>
+    </div>
+
+    <!--花王-->
+    <div id="mescroll10" class="swiper-slide mescroll">
+      <ul id="dataList10" class="data-list"></ul>
+    </div>
+
+    <!--韩蜜-->
+    <div id="mescroll11" class="swiper-slide mescroll">
+      <ul id="dataList11" class="data-list"></ul>
+    </div>
+
+  </div>
+</div>
+
+<script id="tpl-article" type="text/html">
+  {{each articleList}}
+  <a class="k-article-row" href="article-detail.html">
+    <div class="k-article-text">{{$value.pdName}}</div>
+    <img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3488057971,2287442164&fm=26&gp=0.jpg">
+  </a>
+  {{/each}}
+</script>
+<script src="../js/mescroll.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(function () {
+    var mescrollArr = new Array(12);//导航菜单、每个菜单对应一个mescroll对象
+    var curNavIndex = 0; //当前菜单下标
+    mescrollArr[curNavIndex] = initMescroll(curNavIndex); //初始化首页
+
+    /*菜单点击事件*/
+    $(".k-article-nav li").click(function () {
+      var i = Number($(this).attr("i"));
+      swiper.slideTo(i);//以轮播的方式切换列表
+    })
+
+    /*（1）初始化轮播，主内容页面*/
+    var swiper = new Swiper('#swiper', {
+      observer: true,
+      onTransitionEnd: function (swiper) {
+        var i = swiper.activeIndex;//轮播切换完毕的事件
+        changePage(i);
+      }
+    });
+
+    /*（2）切换列表*/
+    function changePage(i) {
+      if (curNavIndex != i) {
+        var curNavDom;//当前菜单项
+        $(".k-article-nav li").each(function (n, dom) {
+          if (dom.getAttribute("i") == i) {
+            dom.classList.add("k-in");
+            curNavDom = dom;
+          } else {
+            dom.classList.remove("k-in");
+          }
+        });
+        //菜单项居中动画
+        var scrollxContent = document.getElementById("scrollxContent");
+        var star = scrollxContent.scrollLeft;//当前位置
+        var end = curNavDom.offsetLeft + curNavDom.clientWidth / 2 - document.body.clientWidth / 2; //居中
+        mescrollArr[curNavIndex].getStep(star, end, function (step, timer) {
+          scrollxContent.scrollLeft = step; //从当前位置逐渐移动到中间位置,默认时长300ms
+        });
+        if (mescrollArr[i] == null) {
+          mescrollArr[i] = initMescroll(i); //取出菜单所对应的mescroll对象,如果未初始化则初始化
+        }
+        curNavIndex = i; //更新标记
+      }
+    }
+
+    /*（3）创建MeScroll对象*/
+    function initMescroll(index) {
+      var mescroll = new MeScroll("mescroll" + index, {
+        up: {
+          callback: getListData, //上拉回调
+          empty: {
+            tip: "暂无相关数据",
+          },
+          clearEmptyId: "dataList" + index,
+          htmlNodata: '没有更多了',
+          lazyLoad: {
+            use: true // 是否开启懒加载,默认false
+          }
+        }
+      });
+      return mescroll;
+    }
+
+    /*（4）联网加载列表数据*/
+    function getListData(page) {
+      var dataIndex = curNavIndex; //记录当前联网的nav下标,防止快速切换时,联网回来curNavIndex已经改变的情况;
+      getListDataFromNet(dataIndex, page.num, page.size, function (pageData) {
+        mescrollArr[dataIndex].endSuccess(pageData.length);
+        setListData(pageData, dataIndex);
+      }, function () {
+        mescrollArr[dataIndex].endErr(); //联网失败的回调,隐藏下拉刷新和上拉加载的状态;
+      });
+    }
+
+    /*（5）设置列表数据
+     * @param pageData 当前页的数据
+     * @param dataIndex 数据属于哪个nav */
+    function setListData(pageData, dataIndex) {
+      var data = {
+        articleList: pageData
+      };
+      var html = template("tpl-article", data);
+      var id = '#dataList' + dataIndex;
+      $(id).append(html);
+    }
+
+    /*（6）联网加载列表数据 */
+    function getListDataFromNet(curNavIndex, pageNum, pageSize, successCallback, errorCallback) {
+      setTimeout(function () {
+        $.ajax({
+          type: 'GET',
+          url: '../js/pdlist1.json',
+          dataType: 'json',
+          success: function (data) {
+            var listData = [];
+
+            if (curNavIndex == 0) {
+              //首页 (模拟分页数据)
+              for (var i = (pageNum - 1) * pageSize; i < pageNum * pageSize; i++) {
+                if (i == data.length) break;
+                listData.push(data[i]);
+              }
+
+            } else {
+              //关键词筛选模拟数据
+              var keyword = ["首页", "奶粉", "面膜", "图书", "果汁", "奶瓶", "美素", "璐拉", "启赋", "雅培", "花王", "韩蜜"];
+              var curword = keyword[curNavIndex];
+              for (var i = 0; i < data.length; i++) {
+                if (data[i].pdName.indexOf(curword) != -1) {
+                  listData.push(data[i]);
+                }
+              }
+            }
+
+            //回调
+            successCallback(listData);
+          },
+          error: errorCallback
+        });
+      }, 500)
+    }
+
+  });
+</script>
+
+</body>
+</html>

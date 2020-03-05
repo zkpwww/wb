@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>招商政策</title>
+    <meta name="keywords" content="招商政策" />
+    <meta name="description" content="" />
+    <!--<link rel="icon" href="../images/index_so5.png" />-->
+    <link type="text/css" rel="stylesheet" href="../css/main.css" />
+    <script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="../js/head_nav.js"></script>
+    <style>
+        /*合作加盟*/
+        .attractjoin{overflow:hidden;padding-bottom:50px;background-color: #f4f4f4;}
+        .attractjoin .boox{margin:50px auto;width:1200px}
+        .attractjoin .jobox{width: 50%;text-align: center;float: left}
+        .attractjoin .jobox img{max-width: 100%;-webkit-transition:all .2s linear;transition:all .2s linear}
+        .attractjoin .jobox img:hover{z-index:999;-webkit-box-shadow:0 15px 30px rgba(0,0,0,.1);box-shadow:0 15px 30px rgba(0,0,0,.1);-webkit-transform:translate3d(0,-2px,0);transform:translate3d(0,-2px,0)}
+
+        /*招商政策*/
+        .attractpolicy{overflow:hidden;margin-top:20px;padding-bottom:50px}
+        .attractpolicy .boox{margin:50px auto;width:1200px}
+        .attractpolicy .boox table{border:1px solid #fff;border-top:none;border-right:none;color:#494948;font-size:9pt}
+        .attractpolicy .boox table td{padding:0 8px; width:20%;border-top:1px solid #fff;border-right:1px solid #fff;background:#f8f8f8;text-align:center}
+        .attractpolicy .boox table td p{margin:0 auto;color:#494948;text-align:left;font-size:9pt;line-height:25px}
+        .attractpolicy .boox table .top_tit{padding:0;height:70px;background:#fff;color:#2474ac;font-size:20px}
+        .attractpolicy .boox table .top_tita{padding: 15px; background:#f8f8f8;color:#2474ac;font-size:18px}
+        .attractpolicy .boox table .top_tit td{padding:0;background:#fff!important}
+        .attractpolicy .top_tit_a{border-bottom:2px solid #f15246!important}
+        .attractpolicy .top_tit_b{border-bottom:2px solid #ffa626!important}
+        .attractpolicy .top_tit_c{border-bottom:2px solid #ede73d!important}
+        .attractpolicy .top_tit_d{border-bottom:2px solid #2cbf51!important}
+        .attractpolicy .top_tit_e{border-bottom:2px solid #3ac2ce!important}
+        /*常见问题*/
+        .attractblem{overflow:hidden;padding-top:10px;padding-bottom:50px;background-color: #f4f4f4}
+        .attractblem .boox{margin:50px auto;width:1200px}
+        .attractblem .ask_main{height:620px;}
+        .attractblem .ask_l{ width:482px;margin-left: 30px; float:left;}
+        .attractblem .ask_r{ width:482px;margin-right: 30px; float:right;}
+        .attractblem .ask_l_d{ width:19px; height:620px; float:left;background:url(../images/ask_l_bg.png) repeat-y center center;}
+        .attractblem .ask_l_t{ width:435px; float:left; font-size:13px;  line-height:22px; margin-left:10px;}
+        .attractblem .ask_l_t_q{color:#f67200;margin-top:10px;}
+        .attractblem .ask_l_t_a{color:#999999; }
+        .attractblem .ask_l_d_1,.ask_l_d_2,.ask_l_d_3,.ask_l_d_4,.ask_l_d_5,.ask_l_d_6,.ask_l_d_7,.ask_l_d_8,.ask_l_d_9,.ask_l_d_10,.ask_l_d_11,.ask_l_d_2,.ask_l_d_12,.ask_l_d_13,.ask_l_d_14,.ask_l_d_15,.ask_l_d_16,.ask_l_d_17,.ask_l_d_18,.ask_l_d_19,.ask_l_d_20,.ask_l_d_21{width:19px; height:19px;  float:left;background:url(../images/ask_l_d.png) no-repeat center center;}
+        .attractblem .ask_l_d_1{ margin-top:22px; }
+        .attractblem .ask_l_d_2{ margin-top:40px; }
+        .attractblem .ask_l_d_3{ margin-top:35px; }
+        .attractblem .ask_l_d_4{ margin-top:35px; }
+        .attractblem .ask_l_d_5{ margin-top:35px; }
+        .attractblem .ask_l_d_6{ margin-top:35px; }
+        .attractblem .ask_l_d_7{ margin-top:35px; }
+        .attractblem .ask_l_d_8{ margin-top:35px; }
+        .attractblem .ask_l_d_9{ margin-top:35px; }
+        .attractblem .ask_l_d_10{ margin-top:35px; }
+        .attractblem .ask_l_d_11{ margin-top:55px; }
+        .attractblem .ask_l_d_12{ margin-top:22px; }
+        .attractblem .ask_l_d_13{ margin-top:35px; }
+        .attractblem .ask_l_d_14{ margin-top:40px; }
+        .attractblem .ask_l_d_15{ margin-top:35px; }
+        .attractblem .ask_l_d_16{ margin-top:35px; }
+        .attractblem .ask_l_d_17{ margin-top:35px; }
+        .attractblem .ask_l_d_18{ margin-top:35px; }
+        .attractblem .ask_l_d_19{ margin-top:35px; }
+        .attractblem .ask_l_d_20{ margin-top:35px; }
+        .attractblem .ask_l_d_21{ margin-top:35px; }
+        /*视屏*/
+        #dyb_loadding_0{position:absolute;top:166px;left:0;width:100%;text-align:center;color:#000}
+        #dyb_sub_0{display:none}
+        #dyb_close_0{position:absolute;top:0;left:0;width:80px;height:36px;text-align:center;font-size:12px;cursor:pointer}
+        #dyb_close_0{display:none}
+        #dyb_play_btn_0{display:none}
+        #dyb_ctl_0{display:none}
+        #dyb_play_btn_0{background:url(//simg.daiyanbao.cn/img/play_btn.gif);background-size:64px 64px;width:64px;height:64px;position:absolute;left:81px;top:150px}
+        #dyb_close_0{color:#e05959}
+        #dyb_ctl_0{bottom:0;height:35px;left:0;opacity:1;position:absolute;transition:all .2s;width:100%;z-index:12;background-color:#fff}
+        #dyb_ctl_0 .dyb-video-timetip{color:#656565;position:absolute;right:2%;top:15px;font-size:12px}
+        #dyb_ctl_0 .dyb-video-timebrand{color:#656565;position:absolute;left:2%;top:15px;font-size:12px;display:block;text-decoration:none}
+        #dyb_ctl_0 .dyb-video-timeline-bar{background-color:#e0e0e0;height:10px;width:96%;margin-left:2%;cursor:pointer;position:absolute;top:5px}
+        #dyb_ctl_0 .dyb-video-timeline-passed{background-color:#e05959;height:100%}
+        #dyb_tmp_video_0{width:226px;height:400px}
+        #dyb_tmp_video_0::-webkit-media-controls{display:none!important}
+        #dyb_menu_0{border-radius:3px;width:130px;background-clip:padding-box;border:solid 1px #aaa;display:block;position:absolute;top:130px;left:91px;background-color:#f0f0f0}
+        #dyb_menu_0 a{display:block;list-style:none;font-size:14px;height:24px;line-height:24px;padding-left:22px;padding-right:22px}
+        #dyb_menu_0 a{text-decoration:none;color:#333;background-color:#f0f0f0;cursor:pointer}
+        #dyb_sub_0{width:200px;height:36px;line-height:36px;position:absolute;left:30px;top:225px;text-align:center;font-size:24px;background-color:transparent;color:#fff;border:0}
+        #dyb_loadding_0{display:none}
+    </style>
+</head>
+<body>
+<!--网站导航 begin-->
+<div id="header_nav" class="min">
+    <div class="shownumberbox">
+        <div class="shownumber">全国咨询热线&nbsp;&nbsp;&nbsp;400-153-6688/13950155393</div>
+    </div>
+    <div class="wrap">
+        <div class="fl">
+            <h2 class="logo img delay"><a><img src="../images/headlogo.png"><span></span></a></h2>
+        </div>
+        <div class="fr">
+            <div class="bot">
+                <ul class="nav">
+                    <li ><a href="http://www.ckjryy.com/">首页</a></li>
+                    <li ><a>简介</a></li>
+                    <li><a>区块链应用</a></li>
+                    <li><a>金融支付</a></li>
+                    <li><a>新零售电商</a></li>
+                    <li><a >小程序</a></li>
+                    <li><a>客户案例</a></li>
+                    <li class="onred"><a class="cur">招商政策</a></li>
+                    <li class="clear"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="sitenav"></div>
+<div class="allbig2"><img src="../images/attract_all1.png"></div>
+<!--合作加盟-->
+<div class="attractjoin">
+    <div class="column_tit">
+        <p>合作加盟</p>
+        <p class="msg">需要了解更多的细节，<span>请联系项目负责人</span></p>
+    </div>
+    <div class="boox">
+        <div class="jobox"><img src="../images/attract_jo1.png"></div>
+        <div class="jobox"><img src="../images/attract_jo2.png"></div>
+    </div>
+</div>
+<!--招商政策-->
+<div class="attractpolicy">
+    <div class="column_tit">
+        <p>招商政策</p>
+        <p class="msg">万里春软件开发，<span>为中小企业软件订制开发打造第一品牌</span></p>
+    </div>
+    <div class="boox">
+        <table align="center" cellpadding="0" cellspacing="0">
+            <tbody>
+            <tr class="top_tit">
+                <td class="top_tit_a">名称</td>
+                <td class="top_tit_b">虚拟币交易系统</td>
+                <td class="top_tit_c">钱包官网</td>
+                <td class="top_tit_d">虚拟币钱包</td>
+                <td class="top_tit_e">ICO众筹系统</td>
+            </tr>
+            <tr>
+                <td class="top_tita">版本</td>
+                <td class="top_titc">PC+APP版</td>
+                <td>PC+APP版</td>
+                <td class="top_titc">PC+APP版</td>
+                <td>PC+APP版</td>
+            </tr>
+            <tr>
+                <td class="top_tita">开发周期</td>
+                <td class="top_titb">5-10个工作日</td>
+                <td>5-10个工作日</td>
+                <td class="top_titb">5-10个工作日</td>
+                <td>5-10个工作日</td>
+            </tr>
+            <tr>
+                <td class="top_tita">服务器配置</td>
+                <td class="top_titc">3-5台</td>
+                <td>3-5台</td>
+                <td class="top_titc">3-5台</td>
+                <td>3-5台</td>
+            </tr>
+            <tr>
+                <td class="top_tita">技术支持</td>
+                <td class="top_titb">有</td>
+                <td>有</td>
+                <td class="top_titb">有</td>
+                <td>有</td>
+            </tr>
+            <tr>
+                <td class="top_tita">维护周期</td>
+                <td class="top_titb">终身</td>
+                <td>终身</td>
+                <td class="top_titb">终身</td>
+                <td>终身</td>
+            </tr>
+            <tr>
+                <td class="top_tita">是否可以定制</td>
+                <td class="top_titc">支持</td>
+                <td>支持</td>
+                <td class="top_titc">支持</td>
+                <td>支持</td>
+            </tr>
+            <tr>
+                <td class="top_tita">语言</td>
+                <td class="top_titb">中文</td>
+                <td>中文</td>
+                <td class="top_titb">中文</td>
+                <td>中文</td>
+            </tr>
+            <tr>
+                <td class="top_tita">数据库</td>
+                <td class="top_titc">sql&nbsp;server&nbsp;2016</td>
+                <td>-</td>
+                <td class="top_titc">oracle 11G</td>
+                <td>sql&nbsp;server&nbsp;2016</td>
+            </tr>
+            <tr>
+
+                <td class="top_tita">服务器所在地</td>
+                <td class="top_titb">香港/美国/日本</td>
+                <td>香港/美国/日本</td>
+                <td class="top_titb">香港/美国/日本</td>
+                <td>香港/美国/日本</td>
+            </tr>
+            <tr>
+                <td class="top_tita">是否需要备案</td>
+                <td class="top_titc">否</td>
+                <td>否</td>
+                <td class="top_titc">否</td>
+                <td>否</td>
+            </tr>
+            <tr>
+                <td class="top_tita">否提供源代码</td>
+                <td class="top_titb">提供</td>
+                <td>提供</td>
+                <td class="top_titb">提供</td>
+                <td>提供</td>
+            </tr>
+            <tr>
+                <td class="top_tita">数据备份是手动还是自动</td>
+                <td class="top_titc">自动</td>
+                <td>自动</td>
+                <td class="top_titc">自动</td>
+                <td>自动</td>
+            </tr>
+            <tr>
+                <td class="top_tita">是否可以安装在自己的服务器</td>
+                <td class="top_titc">可以</td>
+                <td>可以</td>
+                <td class="top_titc">可以</td>
+                <td>可以</td>
+            </tr>
+            <tr>
+                <td class="top_tita">是否有演示</td>
+                <td class="top_titb">有</td>
+                <td>有</td>
+                <td class="top_titb">有</td>
+                <td>有</td>
+            </tr>
+            <tr>
+                <td class="top_tita">是否可以提供案例</td>
+                <td class="top_titc">提供</td>
+                <td>提供</td>
+                <td class="top_titc">提供</td>
+                <td>提供</td>
+            </tr>
+            <tr>
+                <td class="top_tita">是否可以来贵公司考察</td>
+                <td class="top_titb">可以</td>
+                <td>可以</td>
+                <td class="top_titb">可以</td>
+                <td>可以</td>
+            </tr>
+            <tr>
+                <td class="top_tita">是否可以签订协议</td>
+                <td class="top_titc">可以</td>
+                <td>可以</td>
+                <td class="top_titc">可以</td>
+                <td>可以</td>
+            </tr>
+            <tr>
+                <td class="top_tita">是否提供培训</td>
+                <td class="top_titb">提供</td>
+                <td>提供</td>
+                <td class="top_titb">提供</td>
+                <td>提供</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!--常见问题-->
+<div class="attractblem" id="wenti">
+    <div class="column_tit">
+        <p>常见问题</p>
+        <p class="msg">如还有其他问题，<span>请与客服联系</span></p>
+    </div>
+    <dl>
+        <dd class="boox">
+            <div class="ask_main">
+                <div class="ask_l">
+                    <div class="ask_l_d">
+                        <div class="ask_l_d_1">
+                        </div>
+                        <div class="ask_l_d_2">
+                        </div>
+                        <div class="ask_l_d_3">
+                        </div>
+                        <div class="ask_l_d_4">
+                        </div>
+                        <div class="ask_l_d_5">
+                        </div>
+                        <div class="ask_l_d_6">
+                        </div>
+                        <div class="ask_l_d_7">
+                        </div>
+                        <div class="ask_l_d_8">
+                        </div>
+                        <div class="ask_l_d_9">
+                        </div>
+                        <div class="ask_l_d_10">
+                        </div>
+                    </div>
+                    <div class="ask_l_t">
+                        <div class="ask_l_t_q">
+                            Q:你们是公司还是个人?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:公司
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:贵公司有多少个技术员?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:100多位专业技术团队为你量身定制
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:能否到贵公司来考察?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:可以
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:你们的工作时间?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:周一到周六早9:00-晚6：00
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:我对电脑不太懂你们能否提供培训?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:可以
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:贵公司的服务器是放哪里?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:香港
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:是否需要备案?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:不需要
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:现在黑客很猖獗如何保证我的安全?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:只要做好备份就不会有事
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:如果被黑客攻击你们会处理吗，是否还需要另收费?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:有技术不用担心，不需要
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:我看有的公司价格比你们要便宜很多？
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:这么低的价格就怕数据量大了出问题，我是不敢用，除非玩玩，正规公司肯定是不会用这样的小软件，平台每天的数据量都很大，一但系统不稳定就会导致奔溃，这种责任没有哪个人能负的起，尤其是涉及到钱方面，安全才是最重要，千万不能贪便宜
+                        </div>
+                    </div>
+                </div>
+                <div class="ask_r">
+                    <div class="ask_l_d">
+                        <div class="ask_l_d_12">
+                        </div>
+                        <div class="ask_l_d_13">
+                        </div>
+                        <div class="ask_l_d_14">
+                        </div>
+                        <div class="ask_l_d_15">
+                        </div>
+                        <div class="ask_l_d_16">
+                        </div>
+                        <div class="ask_l_d_17">
+                        </div>
+                        <div class="ask_l_d_18">
+                        </div>
+                        <div class="ask_l_d_19">
+                        </div>
+                        <div class="ask_l_d_20">
+                        </div>
+                    </div>
+                    <div class="ask_l_t">
+                        <div class="ask_l_t_q">
+                            Q:你们这是网络版的还是单机版的?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:都是网络版的没有单机版的
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:如果我想放在我自己的服务器上是否可以?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:可以
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:这些费用都包括哪些?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:域名+服务器+虚拟币交易系统+钱包+维护
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:次年1500元是什么费用?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:服务器和维护的费用
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:如果我先做个便宜的将来可以升级吗?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:可以
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:升级的费用怎么算?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:只要补差价就可以
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:服务器是怎么收费的?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:虚拟币交易系统+钱包一般需要3-5台服务器，价格在10000元/月左右
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:我不太懂虚拟币你们能否帮忙策划？
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:可以，不过是要收费的
+                        </div>
+                        <div class="ask_l_t_q">
+                            Q:如何识别正规公司?
+                        </div>
+                        <div class="ask_l_t_a">
+                            A:方法有很多种，主要靠个人经验判断，比如可以看一下对方手否有营业执照，手续是否齐全，网站是否备案，其次可以看对方手否可以提供上门考察，如果不提供就要小心，正规的公司应该是可以提供上门考察，再有就是与对方客服进行交谈，通过交谈可以了解该公司的实际情况、专业度，然后再做研判
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </dd>
+    </dl>
+</div>
+<!--视频-->
+<!--<div id="daiyanbao_com_content" closerate="1" playrate="-2" style="position: fixed;_position: absolute;text-align: left;overflow: visible;bottom :0;left:0;display:block; z-index:999;">-->
+    <!--<div id="dyb_loadding_0">-->
+        <!--<img src="//simg.daiyanbao.cn/img/loadding.gif"><br>-->
+        <!--<span style=" font-size:16px;color:#5e5e5e;text-decoration: none;"><a href="http://www.daiyanbao.cn/?f" target="_blank" style="font-size:16px;color:#5e5e5e;text-decoration: none;">代言宝</a>加载中</span>-->
+    <!--</div>-->
+    <!--<div id="dyb_sub_0" class="dyb_sub">-->
+    <!--</div>-->
+    <!--<div id="dyb_close_0" class="dyb_close">关闭X</div>-->
+    <!--<div id="dyb_play_btn_0" class="dyb-play-btn"></div>-->
+    <!--<div id="dyb_ctl_0">-->
+        <!--<div class="dyb-video-timeline-bar"><div id="dyb_timeline_passd_0" class="dyb-video-timeline-passed" style="width: 100%;"></div></div>-->
+        <!--<a class="dyb-video-timebrand" href="http://www.daiyanbao.cn/?f2" target="_blank">代言宝视频</a>-->
+    <!--</div>-->
+    <!--<video id="dyb_tmp_video_0"><source src="http://b.img.daiyanbao.cn/images/vip/d5cc1c45-6c8f-51bd-a6ba-174ce54829d5/e71031aa-71b9-4d45-921b-5645d0bc66a1.alpha.webm" type="video/webm"></video>-->
+    <!--<div id="dyb_menu_0">-->
+        <!--<a class="dyb_subitem dyb_submenu_0" href="http://www.daiyanbao.cn/?f5" target="_blank" style="color: rgb(51, 51, 51); background-color: rgb(240, 240, 240);">代言宝视频</a><a class="dyb_subitem" style="color: rgb(51, 51, 51); background-color: rgb(240, 240, 240);">关闭视频</a>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--首页网站底部 begin-->
+<footer class="index_footer_bg">
+    <div class="footer container">
+        <div class="text-center lxus">
+            <p>联系我们</p>
+            <p><span>CONTACT US</span></p>
+        </div>
+        <ul class="us">
+            <li>
+                <h3>万里春厦门科技有限公司</h3>
+                <ul class="list">
+                    <li>公司地址：厦门市湖里高新技术园区安岭路966号汇金湖里大厦6A08</li>
+                    <li><p>咨询热线：400-153-6688 客服</p><p style="text-indent: 72px;">400-850-7718 客服</p></li>
+                    <li style="margin-top: 30px;"><img src="../images/foot_wlc.png"><img src="../images/foot_ys.png"></li>
+                    <li style="margin-top: 30px;"><img src="../images/foot_qq.png"><img src="../images/foot_wx.png"></li>
+                </ul>
+            </li>
+            <li>
+                <form>
+                    <div class="formzu"><p class="zumsg">您的称呼</p><input class="zuipt" type="text"></div>
+                    <div class="formzu"><p class="zumsg">公司名称</p><input class="zuipt" type="text"></div>
+                    <div class="formzu"><p class="zumsg">联系电话</p><input class="zuipt" type="text"></div>
+                    <div class="formzu"><p class="zumsg">电子邮箱</p><input class="zuipt" type="text"></div>
+                    <div class="formzu" style="margin-bottom: 50px;"><p class="zumsg">留言</p><input class="zuipt" type="text"></div>
+                    <div style="color: white;font-size: 16px;"><input class="zusub" type="submit" value="提交需求"></div>
+                </form>
+            </li>
+        </ul>
+    </div>
+    <div class="record" style="display: none">
+        <div class="record_img_info"> <a><img src="http://www.ckjryy.com/ckjryy_img/footer_logo.png" height="50" width="158" style="position: absolute;"></a>
+            <div class="record_info">
+                <p>Copyright © 2017 厦门万里春信息科技有限公司</p>
+                <p>闽ICP备16007622号-3</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--返回顶部 begin-->
+<div class="fixed-service"><a href="javascript:;" class="service-item service-top"><i class="s-icon"></i></a> </div>
+</body>
+</html>
