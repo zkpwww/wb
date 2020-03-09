@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>找回密码</title>
+    <meta name="keywords" content="光音程序,zhisencode,小程序,商城,营销,社交,电商,代理,微信,新零售,微信小程序,微信商城,微信营销,微信电商,微信开店,社交电商,微信小程序,微信小程序网站,小程序注册,微信小程序注册, 微信小程序开发,微信小程序申请,小程序申请,小程序设计指南,小程序接入,微信小程序接入,微信小程序开发,小程序开发,小程序介绍,微信小程序介绍,小游戏,微信小游戏,">
+    <meta name="description" content="「小程序」是微信2017年1月9日上线的一项功能，在微信的流量红利下，光音程序为商家制作小程序，以数据分析和模块整合为独特优势，赋能商家和自媒体，打造行业SaaS+IoT的线上线下一体化产品运营体系，致力于成为商家最可信赖的业务发展伙伴。">
+    <link href="./static/images/icon-website.png" rel="Shortcut Icon">
+    <link href="static/css/dzbase.css" rel="stylesheet" />
+    <link href="static/css/animate.css" rel="stylesheet" />
+    <link href="static/css/findpswnew.css" rel="stylesheet" />
+
+    <!-- 开发版 -->
+    <!--[if lt IE 9]>
+    <script src="static/js/html5shiv.min.js"></script>
+    <script src="static/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="warning abs" id="warning">
+            <div class="warning-icon"></div><span id="error">请输入账户名和密码</span>
+        </div>
+        <div class="loginbg-container">
+                <a href="/" style="display:inline-block;padding:50px;">
+                    <img src="static/picture/c0eb7225539d4c7c9f9550376b1cfb90.png" style="max-height:100px;" />
+                </a>
+            <div class="findPswBox" id="findPsw-box">
+                <div class="findPswBox-stepTitle f">
+                    <div class="findPswBox-stepTitle-step active f fc">
+                        <div class="num f fc jc">1</div>验证手机号
+                    </div>
+                    <div class="findPswBox-stepTitle-step f fc">
+                        <div class="num f fc jc">2</div>设置新密码
+                    </div>
+                    <div class="findPswBox-stepTitle-step f fc">
+                        <div class="num f fc jc">3</div>修改成功
+                    </div>
+                </div>
+                <ul class="findPswBox-stepList">
+                    <li class="first">
+                        <form class="form">
+                            <div class="form-group">
+                                <label for="phone">手机号</label>
+                                <input type="text" id="phone" placeholder="请输入手机号">
+                            </div>
+                            <div class="form-group rel">
+                                <label for="phone">验证码</label>
+                                <input type="text" id="code" placeholder="请输入4位验证码" maxlength="4">
+                                <span class="btn-send abs" id="btn-send">
+                                    发送验证码
+                                </span>
+                            </div>
+                        </form>
+                    </li>
+                    <li class="second">
+                        <form class="form">
+                            <div class="form-group">
+                                <label for="phone">设置新密码</label>
+                                <input type="password" id="pwd" placeholder="请输入新密码">
+                            </div>
+                            <div class="form-group rel">
+                                <label for="phone" class="mr10">重复密码</label>
+                                <input type="password" id="pwdRepeat" placeholder="请再次输入新密码">
+                            </div>
+                        </form>
+                    </li>
+                    <li class="third">
+                        <div class="result">
+                            <div class="icon-success"></div>密码已成功重置
+                            <div class="tip"><span id="cutTime">5</span>s后将自动跳转到登录页</div>
+                        </div>
+                    </li>
+                    <div class="btn-confirm " id="next" data-step="1">下一步</div>
+                    <a href="./login.html?method=1" style="padding-top:20px; font-size:0.875rem; display: block;" class="tc login-font-blue">微信扫码登录</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/findpswnew.js"></script>
+<script src="static/js/layer.js"></script>
+
+</html>

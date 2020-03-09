@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta charset="utf-8">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>用户注册</title>
+  <meta name="keywords" content="光音程序,zhisencode,小程序,商城,营销,社交,电商,代理,微信,新零售,微信小程序,微信商城,微信营销,微信电商,微信开店,社交电商,微信小程序,微信小程序网站,小程序注册,微信小程序注册, 微信小程序开发,微信小程序申请,小程序申请,小程序设计指南,小程序接入,微信小程序接入,微信小程序开发,小程序开发,小程序介绍,微信小程序介绍,小游戏,微信小游戏,">
+  <meta name="description" content="「小程序」是微信2017年1月9日上线的一项功能，在微信的流量红利下，光音程序为商家制作小程序，以数据分析和模块整合为独特优势，赋能商家和自媒体，打造行业SaaS+IoT的线上线下一体化产品运营体系，致力于成为商家最可信赖的业务发展伙伴。">
+  <link href="./static/images/icon-website.png" rel="Shortcut Icon">
+  <link href="static/css/animate.css" rel="stylesheet"/>
+  <link href="static/css/wxregnew.css" rel="stylesheet"/>
+  <link href="static/css/dzbase.css" rel="stylesheet"/>
+
+  <!-- 开发版 -->
+  <!--[if lt IE 9]>
+  <script src="static/js/html5shiv.min.js"></script>
+  <script src="static/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body id="bodykey" style="display:none;overflow:hidden">
+
+<div class="wrapper">
+  <div class="loginbg-container">
+    <a href="/" style="display:inline-block;padding:50px;">
+      <img src="static/picture/c0eb7225539d4c7c9f9550376b1cfb90.png" style="max-height:100px;"/>
+    </a>
+    <input type="hidden" id="sessid" value="2483157378"/>
+    <input type="hidden" id="method"/>
+    <div class="login-box f" id="login-box">
+      <div class="login-box-modal rel">
+        <div class="title abs">
+          <p>WELCOME</p>
+          <p>欢迎登录</p>
+        </div>
+      </div>
+      <ul class="login-list f fv fc">
+        <li class="tc f24 t-b login-box-title">账户注册</li>
+        <li class="qrcode" id="qrcode" style="display:block">
+          <div class="f fc fv">
+            <div style="width:130px;height:130px;background-color:skyblue;">
+              <img src="static/picture/5ce46e68af5f4e41a8b0f95a6da988d4.gif" alt="" style="width: 100%;height: 100%;"/>
+            </div>
+            <p style="padding-top:9px; font-size:0.875rem;" class="login-font-gray mt10">微信扫一扫马上注册</p>
+          </div>
+        </li>
+        <li class="tc w-full link">
+          <a href="login.html" class="login-font-blue">已有账号，马上去登录></a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+</body>
+<script>
+  window.onload = function () {
+    document.body.style.display = "block";
+  }
+</script>
+<script src="static/js/jquery.min.js" type="text/javascript"></script>
+<script src="static/js/work.js" charset="utf-8"></script>
+<script src="static/js/layer.js"></script>
+
+<script type="text/javascript">
+  $(function () {
+    $("#login-box").addClass("animated zoomIn")
+
+    function keyLogin() {
+      if (event.keyCode == 13) //回车键的键值为13
+        ValidateLogins(); //调用登录按钮的登录事件
+    }
+
+    //扫描登录
+    function wxLogin() {
+      var key = $('#sessid').val();
+      $.ajax({
+        type: "POST",
+        url: "/dzhome/wxlogin",
+        xhrFields: {
+          withCredentials: true
+        },
+        data: {
+          wxkey: key,
+          usertype: 1
+        },
+        success: function (returnData) {
+          if (returnData.success) {
+            var gourl = "";
+            var cookiekey = "";
+            if (returnData.code == "-2") {
+              gourl = "/dzhome/wxreg";
+              cookiekey = "regphoneuserid";
+            } else {
+              gourl = "/admin/casetemplate";
+              cookiekey = "dz_UserCookieNew";
+            }
+
+            var url = window.location.host;
+            var domain = "";
+            if (url.indexOf("www.") != -1) {
+              domain = url.replace("www.", ".");
+            } else {
+              domain = "." + url;
+            }
+            $.cookie(cookiekey, returnData.msg, {
+              expires: 7,
+              path: '/',
+              domain: domain
+            });
+
+            window.location.href = gourl;
+          }
+        }
+      });
+    }
+
+    var timer = setInterval(wxLogin, 1000);
+  })
+</script>
+

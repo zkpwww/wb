@@ -1,0 +1,96 @@
+﻿h3,h5{font-weight:normal;}
+.container{position:relative;}
+.open-feature:before,
+.open-feature-phote>img,
+.case-item-preview,
+.section-snsgame,
+.section-takecare{transition:all 1s ease;}
+.header{background:#726193;background:linear-gradient(145deg,#0a6ed4,#17b4d8 60%,#53acce);}
+.header .container{padding:80px 0 120px;text-align:center;color:#fff;}
+.header .btn{color:#e0797c;border-color:#fff;}
+.header .btn-stroke{background-color:transparent;color:#fff;}
+.header .btn:focus,
+.header .btn:active,
+.header .btn:hover{background-color:#fff;border-color:#fff;}
+.header .btn-stroke:focus,
+.header .btn-stroke:hover,
+.header .btn-stroke:active{background-color:transparent;border-color:#fff;}
+.xxd-brand{fill:#fff;width:120px;height:120px;text-shadow:0 0 4px rgba(0,0,0,.4)}
+.xxd-brand-text{margin:5px;text-shadow:0 0 2px rgba(0,0,0,.1)}
+.xxd-brand-text>span{font-weight:lighter;}
+.xxd-brand-brief .btn{margin-top:40px;padding:12px 32px;border-radius:40px;font-size:16px;font-weight:bold;}
+.header-option{position:absolute;top:20px;right:0;}
+.section-title{margin:60px 0 20px;text-align:center;}
+.section-title>span:before,
+.section-title>span:after{content:"";display:inline-block;margin:0 16px;width:12px;height:12px;border-radius:12px;vertical-align:4px;border:2px solid #e0797c;}
+.section-title>small{display:block;margin-top:10px;font-size:13px;color:#aaa;}
+.open-feature{position:relative;margin-top:20px;min-height:120px;border-radius:8px;overflow:hidden;}
+.open-feature:before{z-index:1;content:"";position:absolute;display:block;width:100%;height:100%;background-color:rgba(0,0,0,.4)}
+.open-feature-brief{z-index:1;position:absolute;top:50%;width:100%;text-align:center;transform:translateY(-50%);color:#fff;}
+.open-feature-phote{margin:0;}
+.open-feature-phote>img{display:block;width:100%;}
+.open-feature:hover:before{background-color:rgba(0,0,0,.6)}
+.open-feature:hover .open-feature-phote>img{transform:scale(1.1,1.1);}
+.section{padding:80px 0;background-color:#333;}
+.snsgame-wrap{width:700px;margin:auto;overflow:hidden;}
+.snsgame-list{width:140%;margin:0;padding:0;list-style-type:none;text-align:center;}
+.snsgame-list>li{position:relative;float:left;width:100px;height:100px;margin:0 200px 40px 0;background-color:rgba(255,255,255,.1);border:rgba(255,255,255,.2) 1px solid;box-sizing:border-box;border-radius:200px}
+.snsgame-list>li:after,
+.snsgame-list>li:before{display:block;position:absolute;content:"";}
+.snsgame-list>li:before{left:50%;top:-41px;height:40px;border-left:rgba(255,255,255,.2) 1px solid;}
+.snsgame-list>li:after{top:50%;left:-201px;width:200px;border-top:rgba(255,255,255,.2) 1px solid;}
+.snsgame-list>.snsgame-item-xxd{background-color:#1c9246;border-color:rgba(0,0,0,.1)}
+.snsgame-item{color:#fff;text-shadow:0 0 2px rgba(0,0,0,.4)}
+.snsgame-item>i{display:inline-block;margin-top:12px;margin-bottom:-2px;width:48px;height:48px;background-color:#f0a;background:url("../images/port.slice.png") no-repeat;background-size:288px auto;}
+.snsgame-item-lottery>i{background-position:-48px -0px;}
+.snsgame-item-luckybag>i{background-position:-96px -0px;}
+.snsgame-item-card>i{background-position:-144px 4px;}
+.snsgame-item-seckill>i{background-position:-192px 4px;}
+.snsgame-item-stepprice>i{background-position:-240px 4px;}
+.snsgame-item-event>i{background-position:-0px -48px;}
+.snsgame-item-groupbuy>i{background-position:-48px -48px;}
+.snsgame-item-bargin>i{background-position:-96px -46px;}
+.snsgame-item>h5{margin:0;}
+.takecare-item{margin-bottom:20px;padding:10px 0 20px;border:2px solid rgba(255,255,255,.2);border-radius:10px;background-color:rgba(255,255,255,.1);color:#fff;text-align:center;}
+.case-item{position:relative;margin-bottom:40px;text-align:center;background-color:#fff;height:280px;box-shadow:0 0 8px rgba(0,0,0,.05)}
+.case-item .btn-stroke{margin-top:20px;padding:6px 32px;border-color:#e0797c;color:#e0797c;}
+.case-item .btn-stroke:active,
+.case-item .btn-stroke:hover{background-color:#e0797c;color:#fff;}
+.case-item-theme{height:120px;overflow:hidden;}
+.case-item-theme>img{width:100%;}  
+.case-item-brand{margin-top:-40px;}
+.case-item-brand>img{display:inline-block;width:64px;height:64px;border:2px solid #fff;box-shadow:0 0 10px rgba(0,0,0,.1);background-color:#fff;}
+.case-item-preview{opacity:0;position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.6);overflow:hidden;}
+.case-item:hover .case-item-preview{opacity:1;}
+.case-item-qrcode{position:absolute;top:50%;left:50%;margin-top:-60px;margin-left:-60px;padding:4px;width:120px;height:120px;border-radius:8px;border:1px solid rgba(0,0,0,.2);background-color:#fff;}
+.section-snsgame{background:#030100 url("../images/city.jpg") center top no-repeat;background-size:100% auto;}
+.section-takecare{background:#1a1e32 url("../images/section.takecare.jpg") center top no-repeat;background-size:100% auto;}
+.section-snsgame:hover,
+.section-takecare:hover{background-size:108% auto;}
+.section-case{background:#f6f6f6}
+.section-snsgame,
+.section-takecare,
+.section-case{padding-top:60px;padding-bottom:20px;}
+.section-auto{text-align:center;}
+.section-auto img{width:50%;}
+.section-auto h3{margin-bottom:0;}
+.section-copy{padding-top:40px;padding-bottom:20px;color:#eee;background-color:#333;font-weight:normal;}
+.section-copy h3{margin-top:0;font-size:140%;}
+.section-copy p{color:#aaa;}
+.section-copy footer{margin-top:20px;padding-top:20px;text-align:center;border-top:1px solid #666;}
+@media(max-width:680px){
+.header .container{padding-bottom:60px;overflow:hidden;}
+.header-option{position:static;margin-top:20px;margin-right:-10px;}
+.header-option .btn{margin-right:10px;padding:5px 15px;border-radius:16px;}
+.snsgame-wrap{width:240px;margin:auto;}
+.snsgame-list{width:280px;}
+.snsgame-list>li{float:left;margin-right:40px;display:inline-block;}
+.snsgame-list>.snsgame-item-xxd{display:none;}
+.snsgame-list>li:after,
+.snsgame-list>li:before{display:none;}
+.section-case{padding-top:20px;}
+.case-item-preview{opacity:1;}
+.section-copy h3,
+.section-copy .text-right{text-align:center!important;}
+.section-copy .img-thumbnail{margin:20px;}
+}

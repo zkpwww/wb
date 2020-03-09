@@ -1,0 +1,1586 @@
+﻿/*
+    primary color overwrite
+    3c8dbc->0f5 36f
+    367fa9->05e
+    67a8ce->69f
+ */
+a{color:#36f;}
+a:hover,
+a:active,
+a:focus{color:#36f;}
+img{max-width:100%;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{-webkit-appearance:none!important;margin:0;}
+input[type="number"]{-moz-appearance:textfield;}
+.nav-tabs-custom>.nav-tabs>li.active{border-top-color:#36f;}
+.form-control:focus{border-color:#36f;}
+.progress-bar-light-blue,
+.progress-bar-primary{background-color:#36f;}
+.box.box-primary{border-top-color:#36f;}
+.box.box-solid.box-primary{border-color:#36f;}
+.box.box-solid.box-primary>.box-header{background:#36f;background-color:#36f;}
+.todo-list .primary{border-left-color:#36f;}
+.btn{transition:all .2s ease;}
+.btn-primary{background-color:#36f;border-color:#36f;}
+.btn-primary:hover,
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary.hover{background-color:#05e;border-color:#03a;}
+.btn-danger{background-color:#f33;border-color:#f33;}
+.btn-danger:hover,
+.btn-danger.active,
+.btn-danger:active,
+.btn-danger.hover{background-color:#e22;border-color:#e22;}
+.btn-default{background-color:#d8e4eb;border-color:#cedae0;color:#727c8f;}
+.btn-default:hover,
+.btn-default.active,
+.btn-default:active,
+.btn-default.hover{background-color:#b8c7ce;border-color:#b8c7ce;color:#2c323d;}
+.btn-group>.btn-default:hover,
+.btn-group>.btn-default.hover,
+.btn-group>.btn-default.active,
+.btn-group>.btn-default:active{background-color:#2c323d;border-color:#2c323d;color:#b8c7ce;outline:none;}
+.btn-default.focus,
+.btn-default:focus{background-color:#c0cbd1;border-color:#c0cbd1}
+.btn-primary.focus,
+.btn-primary:focus{background-color:#2952cc;border-color:#2952cc}
+.btn-stroke{border:1px solid #aaa;background-color:#fff;color:#777;}
+.btn-stroke:hover,
+.btn-stroke:active,
+.btn-stroke:focus,
+.btn-stroke.hover{background-color:#f6f6f6;color:#333;}
+.btn-stroke.btn-primary,
+.btn-stroke.btn-primary:focus{border-color:#05e;color:#05e;}
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover{background-color:#36f;border-color:#36f;}
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus{background-color:#36f;}
+.modal-body .page-header{margin-bottom:0;}
+.modal-body .page-header>.form-inline{margin-bottom:-15px;}
+.modal-body .page-header>.form-inline>.form-group{margin-bottom:10px;}
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus{border-top-color:#36f;}
+.nav-stacked>li.active>a,
+.nav-stacked>li.active>a:hover{border-left-color:#36f;}
+.nav-tabs-custom.tab-primary>.nav-tabs>li.active{border-top-color:#36f;}
+.direct-chat-primary .right>.direct-chat-text{background:#36f;border-color:#36f;}
+.direct-chat-primary .right>.direct-chat-text:after,
+.direct-chat-primary .right>.direct-chat-text:before{border-left-color:#36f;}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover{color:#fff;}
+.select2-container .select2-selection--single .select2-selection__rendered{padding-right:10px;}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove{margin-right:5px;color:rgba(255,255,255,.6);}
+.select2-container--default.select2-container--open{border-color:#36f;}
+.select2-container--default .select2-results__option--highlighted[aria-selected]{background-color:#eee;color:#333;}
+.select2-container--default.select2-container--focus .select2-selection--multiple,
+.select2-container--default .select2-search--dropdown .select2-search__field{border-color:#36f!important;}
+.select2-container--default .select2-selection--multiple:focus{border-color:#36f;}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{background-color:#36f;border-color:#05e;}
+.select2-container--default .select2-results__option[aria-selected=true],
+.select2-container--default .select2-results__option[aria-selected=true]:hover{color:#fff;background-color:#36f}
+.bg-light-blue,
+.label-primary,
+.modal-primary .modal-body{background-color:#36f!important;}
+.text-light-blue{color:#36f!important;}
+.bg-light-blue-gradient{background:#36f!important;background:-webkit-gradient(linear,left bottom,left top,color-stop(0,#36f),color-stop(1,#69f))!important;background:-ms-linear-gradient(bottom,#36f,#69f)!important;background:-moz-linear-gradient(center bottom,#36f 0%,#69f 100%)!important;background:-o-linear-gradient(#69f,#36f)!important;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#69f',endColorstr='#36f',GradientType=0)!important;}
+.xxd-brand{fill:#f34;}
+.content-wrapper{background-color:#f6f6f6;}
+.content-header{background:transparent;box-shadow:none;}
+.radio.disable,
+.checkbox.disable,
+.radio.disable label,
+.checkbox.disable label{color:#aaa;cursor:not-allowed;}
+.btn-dock-wrap{margin-top:-10px;margin-bottom:-10px;}
+/*.btn-dock-wrap+.well{margin-bottom:-40px;}*/
+.btn-dock{display:block;margin-bottom:20px;height:60px;line-height:60px;border:1px solid #eee;border-radius:4px;color:#555;font-weight:bold;text-align:center;font-size:16px;transition:all ease .2s;}
+.btn-dock:hover,
+.btn-dock.active,
+.btn-dock.active:hover{background:#36f;color:#fff;border-color:#05e;}
+.btn-dock.disable,
+.btn-dock.disable:hover{color:#aaa;background-color:#f6f6f6;border-color:#eee;cursor:not-allowed;}
+.tooltip-inner{text-align:left;}
+.modal-body .select2-container{display:block;width:100%!important;}
+.limit-maxheight{max-height:440px;overflow-y:auto;}
+.gap-bottom-0{margin-bottom:0!important;}
+.toast{position:fixed;z-index:9999;top:20px;right:20px;width:320px;height:auto;margin:0px;padding:0px;}
+.toast.alert{margin:0;padding:15px;border-radius:0;border-width:0;box-shadow:0 0 4px rgba(0,0,0,.2);}
+.toast.center{right:50%;margin-right:-160px;}
+.loading{position:fixed;z-index:9999;top:50%;left:50%;margin-top:-3em;margin-left:-3em;padding:2rem;background-color:rgba(255,255,255,.8);border-radius:1em;box-shadow:0 0 1px rgba(0,0,0,.2);}
+.animated{animation-duration:1s;animation-fill-mode:both;}
+@keyframes bounceIn{from,20%,40%,60%,80%,to{animation-timing-function:cubic-bezier(0.215,0.610,0.355,1.000);}
+0%{opacity:0;transform:scale3d(.3,.3,.3);}
+20%{transform:scale3d(1.1,1.1,1.1);}
+40%{transform: scale3d(.9,.9,.9);}
+60%{opacity:1;transform:scale3d(1.03,1.03,1.03);}
+80%{transform:scale3d(.97,.97,.97);}
+to{opacity:1;transform:scale3d(1,1,1);}
+}
+.bounceIn{animation-name:bounceIn;animation-duration:.8s;}
+@keyframes bounceOut{
+20%{transform:scale3d(.9,.9,.9);}
+50%,55%{opacity:1;transform:scale3d(1.1,1.1,1.1);}
+to{opacity:0;transform:scale3d(.3,.3,.3);display:none;}
+}
+.bounceOut{animation-name:bounceOut;animation-duration:.8s;}
+.text-primary{color:#36f;}
+.text-danger,.text-red{color:#f33;}
+.text-muted,.hint-block{color:#aaa;}
+.text-light{font-weight:300;}
+.text-wrap{word-spacing:normal;white-space:pre-line;word-break:break-all;word-wrap:break-word;}
+.page-header{display:flex;position:relative;margin-bottom:40px;/*padding-top:60px;*/padding-bottom:20px;align-items:center;}
+.page-header:first-child{padding-top:0px;}
+.page-header-name{flex:1;}
+.page-header-name>small{font-size:12px;font-weight:normal;}
+.page-header-option{display:inline-block;max-width:60%;font-size:12px;}
+.page-header-option>.btn{margin-right:10px;}
+.page-header-option>.btn:last-child{margin-right:0;}
+.page-header-collapse{float:right;margin-left:10px;}
+.page-header-collapse .fa{transition:transform ease .4s;transform-origin:center center;}
+.page-header-collapsed .fa{transform:rotate(-180deg);}
+.page-header+.panel-collapse{margin-bottom:40px;}
+.page-header .form-inline>.form-group{margin-bottom:0;}
+.panel-collapse+.form-horizontal{margin-top:-40px;}
+.panel-collapse .tab-content{padding-top:20px;}
+.form-inline{}
+.form-inline .form-group{margin-right:10px;margin-bottom:15px;}
+.form-inline .form-group:last-child{margin-right:0;}
+.form-inline>.form-group>.btn{padding-top:5px;padding-bottom:5px;}
+.form-group{position:relative;}
+.form-control-xshort{width:64px!important;}
+.form-control-short{width:80px!important;}
+.form-control-long{width:240px!important;}
+.form-control-icon{position:absolute;top:50%;right:10px;color:#aaa;transform:translateY(-50%);}
+.form-group-action{padding-top:20px;}
+.form-group-action .btn-default{padding:10px 40px;}
+.form-group-action .btn-primary,
+.form-group-action .btn-danger{padding:10px 60px;}
+.form-group-action .btn{margin-right:20px;}
+.form-group-action .btn:last-child{margin-right:0;}
+.input-group .input-group-addon{border-color:#d2d6de;background-color:#d2d6de;}
+.input-group .input-group-addon+.input-group-addon{border-left-color:rgba(0,0,0,.1)}
+.input-group .input-group-btn+.input-group-btn .btn{border-top-left-radius:0;border-bottom-left-radius:0;}
+.form-group .well,
+.well{margin-top:10px;background-color:#f6f6f6;border-color:#eee;box-shadow:none;}
+.well .control-label{font-weight:normal;}
+.form-group .well:last-child:last-child,
+.form-group .well .form-group:last-child{margin-bottom:0;}
+.well{position:relative;}
+.well-action{position:absolute;right:-1px;bottom:-1px;}
+.well-action>.btn:first-child{border-bottom-left-radius:0;}
+.well-action>.btn:last-child{border-top-right-radius:0;}
+.panel{position:relative;/*overflow:hidden;*/}
+.col-sm-4>.panel-default{overflow:hidden;}
+.panel-label{position:absolute;top:12px;right:-24px;background-color:rgba(0,0,0,.4);color:#fff;font-size:12px;padding:0 20px;transform:rotate(45deg);}
+.small-box.bg-white,
+.small-box.bg-white:hover{color:#777;background-color:#fff!important;}
+.small-box h4{font-size:24px;font-weight:bold;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.small-box-option{display:flex;}
+.small-box-option>.btn{flex:1;padding:10px;text-align:center;border-radius:0;border-style:solid solid none none;}
+.small-box-option>.btn{border-color:rgba(0,0,0,.05);}
+.small-box-option>.btn:last-child{border-right-style:none;}
+.small-box-option>.btn-default{background-color:#f6f6f6;}
+.small-box .icon{top:-5px;font-size:64px;}
+.small-box:hover .icon{font-size:68px;}
+.table>tbody+tbody{border-top-color:#f6f6f6;}
+.table-middle>tbody>tr>td,
+.table-middle>tbody>tr>th,
+.table-middle>tfoot>tr>td,
+.table-middle>tfoot>tr>th,
+.table-middle>thead>tr>td,
+.table-middle>thead>tr>th{vertical-align:middle}
+.table-segment{margin-bottom:10px;width:100%;vertical-align:middle;border-style:none;}
+.table-segment>tbody>tr>th{background-color:#f6f6f6;color:#777;font-weight:normal;}
+.table-segment>thead>tr>th{background-color:#36f;color:#fff;border-width:0;background-color:#f6f6f6;color:#000;}
+.table-segment>tbody,
+.table-segment>tbody+tbody{border-top-style:none;}
+.table-segment>tbody:before{content:"";display:table-row;height:10px;}
+.popover{max-width:80%;}
+.popover hr{margin:5px 0;}
+.popover .table{margin-bottom:0;}
+.modal-header{background-color:#36f;color:#fff;}
+.modal-header .close{color:#fff;opacity:.8}
+/* skin-black navbar */
+.main-header{-webkit-box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);}
+.main-header .navbar-toggle{color:#333;}
+.main-header .navbar-brand{color:#333;border-right:1px solid #eee;}
+.main-header .navbar{background-color:#fff;}
+.main-header .navbar .nav>li>a{color:#333;}
+.main-header .navbar .nav>li>a:hover,
+.main-header .navbar .nav>li>a:active,
+.main-header .navbar .nav>li>a:focus,
+.main-header .navbar .nav .open>a,
+.main-header .navbar .nav .open>a:hover,
+.main-header .navbar .nav .open>a:focus,
+.main-header .navbar .nav>.active>a{background:#fff;color:#999;}
+.main-header .navbar .sidebar-toggle{color:#333;}
+.main-header .navbar .sidebar-toggle:hover{color:#999;background:#fff;}
+.main-header .navbar>.sidebar-toggle{color:#333;border-right:1px solid #eee;}
+.main-header .navbar .navbar-custom-menu .navbar-nav>li>a,
+.main-header .navbar .navbar-right>li>a{border-left:1px solid #eee;border-right-width:0;}
+.main-header .navbar .navbar-custom-menu .navbar-nav>li.user:first-child>a{border-left-width:0;}
+.main-header>.logo{background-color:#1e282c;color:#838da3;border-bottom:0 solid transparent;}
+.main-header>.logo:hover{background-color:#1e282c;}
+.main-header>.logo>.xxd-brand{width:24px;height:24px;fill:#838da3;vertical-align:-4px;}
+.main-header>.logo,
+.sidebar-menu>li{border-bottom:1px solid rgba(0,0,0,.2);}
+.main-header li.user-header{background-color:#222;}
+.main-header .navbar .nav>li>a>.label{z-index:1;top:5px;right:-2px;}
+.modal-body .pagination{margin:0;}
+.popover-content .timeline>li>.timeline-item>.timeline-header{font-size:12px;}
+.wrapper,
+.main-sidebar,
+.left-side,
+.sidebar-menu>li>.treeview-menu{background-color:#1e282c;}
+.main-footer{border-top-width:0;color:#666;text-align: center;}
+.main-sidebar .user-panel{padding-top:40px;padding-bottom:20px;text-align:center;white-space:normal;overflow:visible;display:none}
+.user-panel>.info,
+.user-panel>.info>a{color:#838da3;}
+.user-panel>.info{position:static;padding:10px 5px 0;}
+.user-panel>.image>img{max-width:64px;}
+.user-panel>.image>img,
+.user-panel>.image>p{width:64px;height:64px;}
+.user-panel>.image>p{margin:auto;border-radius:50%;background-color:#36f;color:#fff;line-height:64px;overflow:hidden;text-align:center;font-size:16px;}
+.sidebar-menu>li>a,
+.treeview-menu>li>a{padding:16px 5px 16px 15px;}
+.sidebar-menu{background-color:#2c323d;}
+.sidebar-menu>li.header{color:#666;background:#1a2226;}
+.sidebar-menu>li>a{border-left:3px solid transparent;}
+.sidebar-menu>li:hover>a,
+.sidebar-menu>li.active>a,
+.sidebar-menu>li.menu-open>a,
+.sidebar-menu>li.active:hover>a,
+.sidebar-menu>li.menu-open:hover>a{color:#eee;background:#1e282c;border-left-color:#eee;}
+.sidebar-menu>li:hover>a{border-left-color:transparent;}
+.sidebar-menu>li>.treeview-menu{margin:0;}
+.sidebar-menu .treeview-menu{padding-left:0;}
+.sidebar-menu .treeview-menu>li>a{padding-left:42px;}
+.sidebar-menu .treeview-menu>li>a:hover{color:#eee;background-color:rgba(0,0,0,.2);}
+.sidebar-menu .treeview-menu>li.active>a{background-color:transparent;color:#eee;}
+.sidebar a{color:#838da3;}
+.sidebar a:hover{text-decoration:none;}
+/*.sidebar-menu .treeview{border-bottom:1px solid transparent;}b8c7ce*/
+.sidebar-form{border-radius:3px;border:1px solid #374850;margin: 10px 10px;}
+.sidebar-form input[type="text"],
+.sidebar-form .btn{box-shadow:none;background-color:#374850;border:1px solid transparent;height:35px;}
+.sidebar-form input[type="text"]{color: #666;border-top-left-radius:2px;border-top-right-radius:0;border-bottom-right-radius:0;border-bottom-left-radius:2px;}
+.sidebar-form input[type="text"]:focus,
+.sidebar-form input[type="text"]:focus+.input-group-btn .btn{background-color:#fff;color:#666;}
+.sidebar-form input[type="text"]:focus+.input-group-btn .btn{border-left-color: #fff;}
+.sidebar-form .btn{color:#999;border-top-left-radius:0;border-top-right-radius:2px;border-bottom-right-radius:2px;border-bottom-left-radius:0;}
+.pace .pace-progress{background:#222;}
+.pace .pace-activity{border-top-color:#222;border-left-color:#222;}
+.fn-flex,
+.overview,
+.step{display:-webkit-flex;display:-ms-flexbox;display:-webkit-box;display:flex;flex-flow:row;-webkit-box-align:stretch;-webkit-align-items:stretch;-ms-flex-align:stretch;align-items:stretch;}
+.fn-flex-item,
+.overview>li,
+.step-node{display:block;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;}
+.fn-flex-center{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;}
+.step{margin:40px 0px 20px;padding:0;border-top:2px solid #eee;}
+.step-node{position:relative;text-align:center;}
+.step-node-desc{margin-top:-10px;color:#777;}
+.step-node.active .step-node-desc{color:#36f;}
+.step-node.active .step-node-no{background-color:#36f;color:#fff;line-height:26px;font-size:20px;}
+.step-node.success .step-node-desc{color:#4abb3b;}
+.step-node.success .step-node-no{background-color:#4abb3b;color:#fff;}
+.step-node-no{position:relative;top:-18px;display:block;margin:auto;width:36px;height:36px;line-height:36px;background-color:#eee;border-radius:50%;}
+.step-node-desc>h4{margin:0;font-size:1em;font-weight:normal;}
+.step-node:first-child:before,
+.step-node:last-child:before{content:"";position:absolute;top:-2px;width:50%;height:2px;background:#fff;}
+.step-node:first-child:before{left:0;}
+.step-node:last-child:before{right:0;}
+.nav-tabs>li{margin-bottom:0;}
+.nav-tabs>li.active{position:relative;bottom:-1px;}
+.nav-tabs>li>a{margin-right:4px;padding:6px 12px;}
+.nav-tabs>li>a{background-color:#f6f6f6;color:#aaa;}
+.nav-tabs-app>.nav-tabs,
+.nav-tabs-app>.nav-tabs>li>a,
+.nav-tabs-app>.nav-tabs>li>a:hover,
+.nav-tabs-app>.nav-tabs>li.active>a,
+.nav-tabs-app>.nav-tabs>li.active>a:focus,
+.nav-tabs-app>.nav-tabs>li.active>a:hover{border-width:0;background-color:transparent;}
+.nav-tabs-app>.nav-tabs>li{margin-bottom:0;margin-left:20px;padding-left:20px;font-size:1em;}
+.nav-tabs-app>.nav-tabs>li>a{padding:20px 0;position:relative;}
+.nav-tabs-app>.nav-tabs>li>a:after{content:"";position:absolute;bottom:0;left:0;width:0;height:4px;opacity:0;background-color:#ddd;transition:all ease .4s;}
+.nav-tabs-app>.nav-tabs>li>a:hover{color:#aaa;}
+.nav-tabs-app>.nav-tabs>li>a:hover:after,
+.nav-tabs-app>.nav-tabs>li.active>a:after,
+.nav-tabs-app>.nav-tabs>li.active>a:focus:after,
+.nav-tabs-app>.nav-tabs>li.active>a:hover:after{width:100%;opacity:1;}
+.nav-tabs-app>.nav-tabs>li.active>a:after,
+.nav-tabs-app>.nav-tabs>li.active>a:focus:after,
+.nav-tabs-app>.nav-tabs>li.active>a:hover:after{background-color:#36f;}
+/*
+.nav-tabs-app>.nav-tabs>li>a{padding:20px 0;}
+.nav-tabs-app>.nav-tabs>li>a:hover{border-bottom:4px solid #ddd;color:#aaa;}
+.nav-tabs-app>.nav-tabs>li.active>a,
+.nav-tabs-app>.nav-tabs>li.active>a:focus,
+.nav-tabs-app>.nav-tabs>li.active>a:hover{border-bottom:4px solid #36f;}
+*/
+.nav-tabs-app>.nav-tabs>li.active>a,
+.nav-tabs-app>.nav-tabs>li.active>a:focus,
+.nav-tabs-app>.nav-tabs>li.active>a:hover{color:#36f;font-weight:bold;}
+.nav-tabs-app>.nav-tabs>li{position:relative;bottom:-1px;}
+.nav-tabs-custom>.nav-tabs>li>a{color:#aaa;}
+.nav-tabs-custom>.nav-tabs>li:hover{border-top:3px solid #ddd;}
+.nav-tabs-custom>.nav-tabs>li.active{bottom:0;}
+.nav-tabs-custom>.nav-tabs>li.active:hover{border-top-color:#36f;}
+.nav-tabs-custom>.nav-tabs>li.active>a,
+.nav-tabs-custom>.nav-tabs>li.active>a:focus,
+.nav-tabs-custom>.nav-tabs>li.active>a:hover{color:#36f;}
+.nav-tabs-wrap{padding:20px 0;text-align:center;}
+.nav-tabs-option{position:absolute!important;right:20px;bottom:50%!important;-webkit-transform:-webkit-translateY(50%);transform:translateY(50%);}
+@media(max-width:960px){.nav-tabs-option{position:static!important;-webkit-transform:-webkit-translateY(0%);transform:translateY(0%);}}
+.nav-tabs-theme{display:inline-block;}
+.nav-tabs-theme>.nav-tabs>li.active>a{background-color:#2c323d;}
+.nav-tabs-theme>.nav-tabs{border-bottom-width:0;}
+.nav-tabs-theme>.nav-tabs>li{margin-right:-2px;}
+.nav-tabs-theme>.nav-tabs>li.active{bottom:0;}
+.nav-tabs-theme>.nav-tabs>li>a{margin-right:0;padding:10px 20px;border-radius:0;font-size:1em;color:#2c323d;}
+.nav-tabs-theme>.nav-tabs>li>a,
+.nav-tabs-theme>.nav-tabs>li.active>a,
+.nav-tabs-theme>.nav-tabs>li.active>a:hover{border:2px solid #2c323d;}
+.nav-tabs-theme>.nav-tabs>li.active>a,
+.nav-tabs-theme>.nav-tabs>li.active>a:hover{color:#fff;}
+.nav-tabs-theme-option{position:absolute;right:20px;top:20px;padding:4px 0;min-width:64px;height:44px;}
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover{background-color:#36f}
+/* ---- masonry grid https://codepen.io/desandro/pen/osFxj---- */
+.goods-box{position:relative;left:10px;margin:auto;padding:40px 0 20px;text-align:left;}
+.goods-box-item{position:relative;display:inline-block;margin-right:20px;margin-bottom:20px;width:240px;font-size:14px;border:2px solid #eee;vertical-align:top;text-align:left;white-space:normal;}
+@media(min-width:350px){.goods-box{width:270px;}}
+@media(min-width:560px){.goods-box{width:540px;}}
+@media(min-width:1060px){.goods-box{width:800px;}}
+@media(min-width:1380px){.goods-box{width:1060px;}}
+@media(min-width:1660px){.goods-box{width:1320px;}}
+@media(min-width:1810px){.goods-box{width:1580px;}}
+@media(min-width:2180px){.goods-box{width:1840px;}}
+@media(min-width:2360px){.goods-box{width:2100px;}}
+@media(min-width:840px){body.sidebar-collapse .goods-box{width:800px;}}
+@media(min-width:1080px){body.sidebar-collapse .goods-box{width:1060px;}}
+@media(min-width:1380px){body.sidebar-collapse .goods-box{width:1320px;}}
+@media(min-width:1660px){body.sidebar-collapse .goods-box{width:1580px;}}
+@media(min-width:1980px){body.sidebar-collapse .goods-box{width:1840px;}}
+@media(min-width:2180px){body.sidebar-collapse .goods-box{width:2100px;}}
+.goods-box-photo{margin:4px;height:200px;background-color:#f6f6f6;overflow:hidden;}
+.goods-box-photo img{width:100%;height:100%;}
+.goods-box-photo{position:relative;}
+.goods-box-photo-name{position:absolute;bottom:0;left:0;padding:0 4px;width:100%;height:20px;line-height:20px;background-color:rgba(0,0,0,.4);color:#fff;font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.goods-box-text{padding:0 10px 4px;height:120px;}
+.goods-box-text>h4{font-size:16px;font-weight:normal;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.goods-box-text>p{margin:0;}
+.goods-box-option{bottom:0;left:0;padding-top:20px;width:100%;height:116px;background-color:rgba(255,255,255,.9);text-align:center;}
+.goods-box-option>.btn,
+.goods-box-option>.fn-flex{width:80%;margin:auto;}
+.goods-box-option .fn-flex-item{margin-right:10px;}
+.goods-box-option .fn-flex-item:last-child{margin-right:0px;}
+.goods-box-option>.btn{margin-bottom:10px;}
+.goods-box-option .btn{border-width:2px;}
+.goods-box-favor,
+.goods-box-view{top:10px;right:10px;width:40px;height:40px;line-height:40px;font-size:20px;border-radius:50%;text-align:center;background-color:rgba(255,255,255,.8);box-shadow:0 0 4px rgba(0,0,0,.1)}
+.goods-box-option,
+.goods-box-favor,
+.goods-box-view{opacity:0;position:absolute;}
+.goods-box-view{top:10px;right:auto;left:10px;}
+.goods-box-item:hover{border-color:#05e;transition:border-color .4s ease;}
+.goods-box-item:hover .goods-box-option,
+.goods-box-item:hover .goods-box-favor,
+.goods-box-item:hover .goods-box-view{opacity:1;transition:opacity .8s ease}
+.goods-box-theme .goods-box-text{height:60px;}
+.goods-box-theme .goods-box-photo{position:relative;height:160px;}
+.goods-box-theme .goods-box-photo:before,
+.goods-box-theme .goods-box-photo h4{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
+.goods-box-theme .goods-box-photo:before{content:"";width:80%;height:100px;border:2px solid rgba(255,255,255,.9);}
+.goods-box-theme .goods-box-photo h4{margin:0;width:72%;height:80px;line-height:80px;font-weight:normal;text-align:center;color:#000;background-color:rgba(255,255,255,.9);}
+.goods-box-alone{white-space:nowrap;overflow:hidden;padding-top:0;}
+.goods-box-alone .goods-box-item{margin-right:28px;}
+.goods-box-alone .goods-box-text,
+.goods-box-alone .goods-box-option{height:144px;height:128px;}
+.goods-box-alone .goods-box-text>h4{max-height:48px;line-height:24px;font-size:14px;white-space:normal;}
+.goods-box-alone .goods-box-text>h4 .label{padding:2px 4px;margin-right:2px;font-size:12px;font-weight:bold;}
+.list-group-item>.fa.pull-right{margin-top:4px;}
+.treeview .list-group-item{cursor:pointer;}
+.treeview .list-group-item:first-child,
+.treeview .list-group-item:last-child{border-radius:0;}
+.treeview span.indent{margin-left:10px;margin-right:10px}
+.treeview span.icon{width:12px;margin-right:5px}
+.treeview .node-disabled{color:silver;cursor:not-allowed}
+.treeview .node-selected{background-color:#36f;color:#fff;}
+.treeview-multi{display:flex;}
+.treeview-multi>.list-group{flex:1;margin-right:-1px;padding:10px 0;height:360px;border:1px solid #eee;background:#fff;overflow-y:auto;}
+.treeview-multi>.list-group>.list-group-item{margin-bottom:0;border-style:none none solid none;border-radius:0;}
+.treeview-multi>.list-group>.list-group-item:last-child{border-bottom-style:none;}
+.photo-upload{position:relative;font-size:0;}
+.photo-upload:after{content:"";display:table;clear:both;}
+.photo-upload-item{position:relative;float:left;margin-right:10px;margin-bottom:10px;font-size:12px;/*display:inline-block;width:120px;*/}
+.photo-upload-item>img{}
+.photo-upload-item-remove{display:none;position:absolute;top:-8px;right:-8px;width:24px;height:24px;line-height:24px;background-color:#eee;border-radius:50%;text-align:center;cursor:pointer;}
+.photo-upload-item:hover .photo-upload-item-remove{display:block;}
+.ui-sortable-helper{display:block;}
+.label-group-wrap{margin-top:10px;font-size:0;}
+.label-group{display:inline-block;margin-right:4px;margin-bottom:16px;font-size:0;white-space:nowrap;}
+.label-group-wrap .label,
+.label-group>.label{font-size:10px;font-weight:normal;margin-right:1px;white-space:normal;line-height:1.4;}
+/*
+.label-group>.label:first-child{border-top-right-radius:0;border-bottom-right-radius:0}
+.label-group>span+a.label:last-child{border-top-left-radius:0;border-bottom-left-radius:0}
+*/
+.label-group>span+a.label{border-top-left-radius:0;border-bottom-left-radius:0;border-left:1px solid #fff;margin-left:-3px;}
+.label-group-wrap+.form-control-static{padding-top:0;min-height:auto;}
+
+.xxd-header{display:flex;align-items:center;}
+.xxd-header-option{display:inline-block;}
+.xxd-header-text{flex:1;margin:0;padding:0;font-size:16px;}
+body.skin-auth{min-height:100%;background:#000 url("../images/web.xxd.authskin.jpg")/*tpa=http://e.xinxiaodian.com/assets/8c414688/img/web.xxd.authskin.jpg*/ no-repeat 50%;background-size:cover;background-attachment:fixed;}
+.auth-wrap .logo,
+.auth-wrap .logo:hover{color:#fff;font-size:32px;}
+.auth-wrap .logo>.xxd-brand{width:80px;height:80px;fill:#fff;}
+.auth-wrap .logo>.xxd-brand-text{margin-top:-12px;}
+.auth-wrap .logo>.xxd-brand-text>span{font-weight:lighter;}
+.auth-wrap{margin:100px auto 0;width:320px;text-align:center;}
+.auth-lg{width:64%;}
+.auth-body{margin-top:10px;padding:0 40px 20px;background-color:#fff;border-radius:8px;text-align:left;}
+.auth-wrap .nav-tabs{margin:0px -40px 20px;}
+.auth-wrap .nav-tabs>li>a,
+.auth-wrap .nav-tabs>li>a:focus,
+.auth-wrap .nav-tabs>li>a:hover,
+.auth-wrap .nav-tabs>li.active>a:focus,
+.auth-wrap .nav-tabs>li.active>a:hover,
+.auth-wrap .nav-tabs>li.active>a{border-width:0;background-color:transparent;}
+.auth-wrap .nav-tabs>li.active>a{font-weight:bold;}
+.auth-wrap .nav-tabs>li.active{bottom:0;}
+.auth-wrap .nav-tabs{display:flex;}
+.auth-wrap .nav-tabs>li{flex:1;border-right:1px solid rgba(0,0,0,.1);}
+.auth-wrap .nav-tabs>li>a{display:block;padding-top:16px;padding-bottom:16px;text-align:center;}
+.auth-wechat{text-align:center;}
+.auth-wechat-qrcode{margin:10px auto;max-width:200px;width:64%;border:1px solid rgba(0,0,0,.1);}
+.auth-lg .auth-wechat-qrcode{width:40%;}
+.auth-wrap>footer{margin-top:20px;color:#727c8f;}
+.auth-body>.page-title{margin-right:-40px;margin-left:-40px;}
+.page-title{padding:32px;text-align:center;}
+.page-title>h2,
+.alert-final>h2{font-weight:300;}
+.alert-final{padding-top:80px;padding-bottom:120px;text-align:center;}
+.alert-final>h2,
+.alert-final>p{margin-right:auto;margin-left:auto;width:64%;}
+.alert-final>p{color:#aaa;}
+.alert-final>.btn-block{margin:80px auto 0;width:28%;}
+.alert-final>.xxd-brand{width:100px;}
+.modal-body .alert-final{padding-top:20px;padding-bottom:80px;}
+.plan{margin:20px;display:flex;}
+.plan-item{position:relative;flex:1;margin-right:40px;padding:20px 20px 96px;border:1px solid #eee;}
+.plan-item:last-child{margin-right:0;}
+.plan-name,
+.plan-action{text-align:center;}
+.plan-action{position:absolute;bottom:20px;left:0;width:100%;}
+.plan-action>.btn-lg{padding-right:40px;padding-left:40px;}
+.plan-spec{margin-left:18%;padding:0;height:160px;}
+.plan-spec>li{list-style-type:none;line-height:1.8;font-size:.9em;}
+.plan-name{position:relative;top:-1px;margin:-20px auto 20px;width:80%;}
+.plan-name:before{content:"";display:inline-block;width:80px;height:80px;background-image:url("../images/icon.medal.level0.png")/*tpa=http://e.xinxiaodian.com/assets/8c414688/img/icon.medal.level0.png*/;background-size:80px auto;}
+.plan-item-profession>.plan-name:before{background-image:url("../images/icon.medal.level1.png")/*tpa=http://e.xinxiaodian.com/assets/8c414688/img/icon.medal.level1.png*/}
+.plan-item-ultimate>.plan-name:before{background-image:url("../images/icon.medal.level2.png")/*tpa=http://e.xinxiaodian.com/assets/8c414688/img/icon.medal.level2.png*/}
+
+.plan-exchange,
+.plan-operation,
+.plan-ultimate,
+.plan-profession{margin-bottom:20px;border:2px solid #ddd;border-radius:10px;}
+.plan-operation{border-color:#ffe6d0;}
+.plan-ultimate{border-color:#f7eee1;}
+.plan-profession{border-color:#e0e5fb;}
+.plan-header{position:relative;padding-bottom:20px;border-top-left-radius:10px;border-top-right-radius:10px;text-align:center;background:#ffded2;background:-webkit-gradient(linear,left bottom,right top,color-stop(0,#ffded2),color-stop(.8,#fffde9),color-stop(1,#fff));background:linear-gradient(45deg,#ffded2,#fffde9 80%,#fff);}
+.plan-ultimate .plan-header{background:#f7eee1;background:-webkit-gradient(linear,left top,right bottom,color-stop(0,#fff),color-stop(.32,rgba(249,246,244,.6)),color-stop(1,rgba(226,209,195,.6)));background:linear-gradient(135deg,#fff 0%,rgba(249,246,244,.6) 32%,rgba(226,209,195,.6) 100%);}
+.plan-profession .plan-header{background:#c5f3f6;background:-webkit-gradient(linear,left bottom,right top,color-stop(0,rgba(226,209,195,.6)),color-stop(.32,#fff),color-stop(1,#c5f3f6));background:linear-gradient(45deg,rgba(226,209,195,.6),#fff 32%,#c5f3f6);}
+.plan-header .label{position:absolute;top:36px;left:-10px;padding-top:6px;padding-bottom:6px;border-radius:20px;font-size:14px;background-color:#d18e6d;}
+.plan-ultimate .plan-header .label{background-color:#f77}
+.plan-profession .plan-header .label{background-color:#87b4e0}
+.plan-header h2{margin:0;padding-top:32px;padding-bottom:20px;font-size:36px;}
+.plan-header h2 small{font-size:12px;color:#000;}
+.plan-header .btn{padding-right:40px;padding-left:40px;}
+.plan-body{padding:10px;min-height:280px;text-align:center;background-color:#fff;border-bottom-left-radius:10px;border-bottom-right-radius:10px;}
+.plan-body dl{margin:0;padding-bottom:10px;font-size:12px;}
+.plan-body dt{position:relative;padding:6px 0;display:inline-block;color:#ccc;font-weight:normal;}
+.plan-body dt:before,
+.plan-body dt:after{content:"";position:absolute;top:50%;margin-top:-1px;width:10px;height:4px;border:1px solid #ddd;border-style:solid none;}
+.plan-body dt:before{left:-20px;}
+.plan-body dt:after{right:-20px;}
+.plan-exchange{overflow:hidden;}
+.plan-exchange .plan-body{padding:20px;min-height:auto;text-align:left;}
+.plan-exchange-info{position:relative;padding-left:40px;}
+.plan-exchange-info:before{content:"";position:absolute;left:0;width:32px;height:32px;background:url("../images/icon.exchange.png")/*tpa=http://e.xinxiaodian.com/assets/8c414688/img/icon.exchange.png*/;background-size:32px auto;}
+.plan-exchange-info h5{margin:0;}
+
+.agent-status,
+.agent-intro{margin-right:auto;margin-left:auto;width:80%;}
+.agent-status{margin-bottom:20px;padding:60px 0 40px;border-bottom:1px solid #eee;}
+.agent-status .btn-lg{margin-top:20px;padding-right:40px;padding-left:40px;}
+.agent-intro-detail{margin-bottom:20px;}
+.agent-intro-more{min-height:160px;margin:}
+.overview{margin:0 0 0;padding:12px;}
+.overview>li{padding-right:4px;padding-left:4px;border-right:1px solid #ddd;text-align:center;}
+.overview>li:last-child{border-style:none;}
+.overview>li.title{padding-left:10px;border-right-width:0;text-align:left;}
+.overview>li.title>h3{margin-top:10px;font-size:1.4em;}
+.overview>li h4,
+.overview>li p{margin:0;}
+.overview-lg{padding-top:20px;padding-bottom:20px;}
+.overview-lg li h4{margin-bottom:10px;font-size:2em;}
+.overview-lg li p{font-size:1.2em;}
+.popover .overview{padding-right:0;padding-left:0;}
+.page-header+.overview{margin-top:-10px;}
+.label{font-weight:normal;}
+.label-stroke{border:1px solid #eee;background-color:#f6f6f6;color:#aaa;}
+.label-stroke.label-primary{border-color:#36f;color:#36f!important;background-color:#fff!important;}
+.page-header-store>.image{margin-right:20px;width:72px;}
+.page-header-name>h4{margin:0;}
+.page-header-name .label{margin-right:5px;}
+.page-header-store{margin-bottom:10px;}
+.wholesale-article{margin-right:20px;margin-left:20px;}
+.wholesale-article .link-dark{color:#555;}
+.wholesale-article .page-header{margin-bottom:20px;padding-bottom:0;border-bottom-width:0;}
+@media(min-width:1364px){
+.plan-spec{margin-left:30%;}
+}
+@media(max-width:640px){
+.plan{display:block;}
+.plan-item{display:block;width:80%;margin:0 auto 20px;}
+.plan-item:last-child{margin-right:auto;}
+.auth-lg{width:100%;}
+.auth-lg .auth-wechat-qrcode{width:64%;}
+}
+
+.box-header .box-title{font-size:16px;}
+.nav-pills li>a>.fa-angle-left,
+.nav-pills li>a>.pull-right-container>.fa-angle-left{width:auto;height:auto;padding:0;margin-right:10px;-webkit-transition:transform .5s ease;-o-transition:transform .5s ease;transition:transform .5s ease;}
+.nav-pills .menu-open>a>.fa-angle-left,
+.nav-pills .menu-open>a>.pull-right-container>.fa-angle-left{-webkit-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg);}
+.nav-pills li{font-size:14px;}
+.nav-pills li>a{padding:10px;}
+.nav-pills .treeview-menu{padding-left:0;}
+.nav-pills .treeview-menu>.active>a,
+.nav-pills .treeview-menu>li.active>a:hover{border-left-color:#36f;color:#36f;}
+.nav-pills .treeview-menu>li>a{padding:10px 10px 10px 24px;color:#555;font-size:12px;border-left:3px solid #fff;}
+.nav-pills .treeview-menu>li>a:hover{background-color:#f2f2f2;color:#333;border-left-color:#f2f2f2;}
+.nav-pills .active>.treeview-menu{display:block;}
+.nav-pills li.active>a,
+.nav-pills li.active>a:focus,
+.nav-pills li.active>a:hover{background-color:#fff;color:#36f;}
+
+.page-header+.article-list{margin-top:-20px;}
+.article-list{padding:0;list-style-type:none;}
+.article-list>.item{margin-bottom:20px;padding:0 20px 0 0px;border-bottom:1px solid #eee;}
+.article-list>.item:last-child{margin-bottom:0;border-bottom-style:none;}
+.article-list-title{color:#555;font-weight:normal;}
+.article-detail-title{padding:20px 10px;}
+
+/*colorpicker*/
+.colorpicker-saturation{float:left;width:100px;height:100px;cursor:crosshair;background-image:url("data:image/png;base64,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");}
+.colorpicker-saturation i{display:block;height:5px;width:5px;border:1px solid #000;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;position:absolute;top:0;left:0;margin:-4px 0 0 -4px;}
+.colorpicker-saturation i b{display:block;height:5px;width:5px;border:1px solid #fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.colorpicker-hue,
+.colorpicker-alpha{width:15px;height:100px;float:left;cursor:row-resize;margin-left:4px;margin-bottom:4px;}
+.colorpicker-hue i,
+.colorpicker-alpha i{display:block;height:1px;background:#000;border-top:1px solid #fff;position:absolute;top:0;left:0;width:100%;margin-top:-1px;}
+.colorpicker-hue{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkCAMAAABw8qpSAAABLFBMVEXqFBb/ABH/ACL/ADH/AEH/AFD/AGD/AG7/AH7/AI3/AJ3/AKz/ALz/AMr/ANv/AOr/APr2AP/mAP/XAP/HAP+4AP+oAP+aAP+JAP97AP9rAP9cAP9MAP8+AP8tAP8fAP8PAP8BAv8AEP8AH/8AL/8APv8ATv8AXP8Abf8Ae/8Ai/8Amv8Aqv8AuP8Ayf8A1/8A5/8A9/8A//gA/+kA/9kA/8oA/7oA/6wA/5sA/40A/30A/24A/14A/1AA/z8A/zEA/yEA/xEB/wMN/wAd/wAs/wA8/wBK/wBb/wBp/wB5/wCI/wCY/wCm/wC3/wDF/wDV/wDk/wD1/wD/+gD/7AD/3AD/zAD/vgD/rQD/nwD/jgD/gAD/cAD/YgD/UQD/QwD/MgD/JAD/FAD4Eg42qAedAAAAh0lEQVR4XgXAg3EDAAAAwI9to7Zt27a1/w49BASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTS1tHXo1KVbj159+g0YNGTYiFFjxk2YNGXajFlz5i1YtGTZilVr1m3YtGXbjl179h04dOTYiVNnzl24dOXajVt37j149OTZi1dv3n349OXbj19//wOxE1dQ8reGAAAAAElFTkSuQmCC");}
+.colorpicker-alpha{display:none;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAABkCAQAAAAVxWkcAAABr0lEQVR4Xo2VwU0DQQxF7dmRuNIFlzlSAR3QAaXQQdIBJVABFXDcOVAAd67cjJLR07dkhcSrkZKfb/t7bG88rFo3B5gZPMNycItu2xloGV7MWHzM9zuzFWCkmA0nK6AszCUJDW6+mG6R03ncw5v8EMTEvZ2O3AliYjpslblc0RF9LmZYWxURU6aKytWZYsoWCAe+xwOZp1GsEukGiIkYxcQCHck99+gRgB7JncyIB5SGEhP3Yh5P6JwX+u6AnYot104d8DJT7uH7M9JH6OZbimj0vfMVaYnJIZFJDBW9kHlerL2C6JV4mSt7uuo2N57RxnZ+usQjn0R1jwBJBrNO3evJpVYUWsJ/E3UiXRlv24/7YZ04xmEdWlzcKS+B/eapeyMvFd2k0+hRk/T0AmTW8h69s2sjYMsdPntECiILhAeIMZAeH4QvUwfn6ijC0tTV+fT9ky8jM9nK2g7Ly1VjSpKYq6IvsAm7MtNu1orEqa/K3KNvgMFdhfquPfJmp2dbh0/8Gzb6Y22ViaNr6n5410zXdngVhbu6XqdOtWOuin5hjABGp4a2uotZ71MVCfwDBt2/v37yo6AAAAAASUVORK5CYII=");}
+.colorpicker-saturation,
+.colorpicker-hue,
+.colorpicker-alpha{background-size:contain;}
+.colorpicker{padding:4px;min-width:130px;margin-top:1px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;z-index:200;}
+.colorpicker:before,
+.colorpicker:after{display:table;content:"";line-height:0;}
+.colorpicker:after{clear:both;}
+.colorpicker:before{content:'';position:absolute;top:-7px;left:6px;display:inline-block;border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:7px solid #ccc;border-bottom-color:rgba(0, 0, 0, 0.2);}
+.colorpicker:after{content:'';display:inline-block;border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:6px solid #ffffff;position:absolute;top:-6px;left:7px;}
+.colorpicker div{position:relative;}
+.colorpicker.colorpicker-with-alpha{min-width:140px;}
+.colorpicker.colorpicker-with-alpha .colorpicker-alpha{display:block;}
+.colorpicker-color{height:10px;margin-top:5px;clear:both;background-position:0 100%;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAABkCAQAAAAVxWkcAAABr0lEQVR4Xo2VwU0DQQxF7dmRuNIFlzlSAR3QAaXQQdIBJVABFXDcOVAAd67cjJLR07dkhcSrkZKfb/t7bG88rFo3B5gZPMNycItu2xloGV7MWHzM9zuzFWCkmA0nK6AszCUJDW6+mG6R03ncw5v8EMTEvZ2O3AliYjpslblc0RF9LmZYWxURU6aKytWZYsoWCAe+xwOZp1GsEukGiIkYxcQCHck99+gRgB7JncyIB5SGEhP3Yh5P6JwX+u6AnYot104d8DJT7uH7M9JH6OZbimj0vfMVaYnJIZFJDBW9kHlerL2C6JV4mSt7uuo2N57RxnZ+usQjn0R1jwBJBrNO3evJpVYUWsJ/E3UiXRlv24/7YZ04xmEdWlzcKS+B/eapeyMvFd2k0+hRk/T0AmTW8h69s2sjYMsdPntECiILhAeIMZAeH4QvUwfn6ijC0tTV+fT9ky8jM9nK2g7Ly1VjSpKYq6IvsAm7MtNu1orEqa/K3KNvgMFdhfquPfJmp2dbh0/8Gzb6Y22ViaNr6n5410zXdngVhbu6XqdOtWOuin5hjABGp4a2uotZ71MVCfwDBt2/v37yo6AAAAAASUVORK5CYII=");}
+.colorpicker-color div{height:10px;}
+.colorpicker-selectors{display:none;height:10px;margin-top:5px;clear:both;}
+.colorpicker-selectors i{cursor:pointer;float:left;height:10px;width:10px;}
+.colorpicker-selectors i+i{margin-left:3px;}
+.colorpicker-element .input-group-addon i,
+.colorpicker-element .add-on i{display:inline-block;cursor:pointer;height:16px;vertical-align:text-top;width:16px;}
+.colorpicker.colorpicker-inline{position:relative;display:inline-block;float:none;z-index:auto;}
+.colorpicker.colorpicker-horizontal{width:110px;min-width:110px;height:auto;}
+.colorpicker.colorpicker-horizontal .colorpicker-saturation{margin-bottom:4px;}
+.colorpicker.colorpicker-horizontal .colorpicker-color{width:100px;}
+.colorpicker.colorpicker-horizontal .colorpicker-hue,
+.colorpicker.colorpicker-horizontal .colorpicker-alpha{width:100px;height:15px;float:left;cursor:col-resize;margin-left:0px;margin-bottom:4px;}
+.colorpicker.colorpicker-horizontal .colorpicker-hue i,
+.colorpicker.colorpicker-horizontal .colorpicker-alpha i{display:block;height:15px;background:#ffffff;position:absolute;top:0;left:0;width:1px;border:none;margin-top:0px;}
+.colorpicker.colorpicker-horizontal .colorpicker-hue{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAMAAAAfBfuPAAABLFBMVEXqFBb/ABH/ACL/ADH/AEH/AFD/AGD/AG7/AH7/AI3/AJ3/AKz/ALz/AMr/ANv/AOr/APr2AP/mAP/XAP/HAP+4AP+oAP+aAP+JAP97AP9rAP9cAP9MAP8+AP8tAP8fAP8PAP8BAv8AEP8AH/8AL/8APv8ATv8AXP8Abf8Ae/8Ai/8Amv8Aqv8AuP8Ayf8A1/8A5/8A9/8A//gA/+kA/9kA/8oA/7oA/6wA/5sA/40A/30A/24A/14A/1AA/z8A/zEA/yEA/xEB/wMN/wAd/wAs/wA8/wBK/wBb/wBp/wB5/wCI/wCY/wCm/wC3/wDF/wDV/wDk/wD1/wD/+gD/7AD/3AD/zAD/vgD/rQD/nwD/jgD/gAD/cAD/YgD/UQD/QwD/MgD/JAD/FAD4Eg42qAedAAAAbUlEQVR4XgXAghEDsbxtlrZt27ax/w49ACAYQTGcICmaYTleECVZUTXdMC1Wm93hdLk9Xp8/EAyFI9FYPJFMpTPZXL5QLJUr1Vq90Wy1O91efzAcjSfT2XyxXK03293+cDydL9fb/fF8vT/f3x+LfRNXARMbCAAAAABJRU5ErkJggg==");}
+.colorpicker.colorpicker-horizontal .colorpicker-alpha{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAKCAQAAADoFTP1AAAB9ElEQVR4XoWTQW4VMRBEu9qWEimL7DhEMp8NF+ASnJJLcAQgE1bcgBUSkYKUuHCrZ9pjeqSU5Yn9LPu7umJQBIIv+k7vIOrtK66L4lmr3pVOrOv3otp619KZ0/KjdNI79L52Uo09FBQWrU0vfe5trezU+hLsoUKd3Repovte+0vbq/7Lj5XbaHECKasR9G4MPlbp+gzZxd6koPEJCkAYC5SjcOTAIIOK90Dja1IfIZ8Z+zAY9jm3b5Ia+MT5sFcqRJrR2AYYA8Kua5BzYRrFPNmD4PQMegGJMOffJJUsWiI3nCHZZjInNdffLWOufzbc3JaboCAVxwmnRHbhLSPwRJ4wU0BRSc6HkECYYVw95nMKgJOcylxrJttE5Ibzf9Xq9GPvP+WX3MiV/MGHfRu/SentRQrfG1GzsIrytdNXucSRKxQNIGHM9YhGFQJcdjNcBZvfJayuYe4Sia1CzwW+19mWOhe37HsxJWKwbu/jluEU15QzAQjAqCEbhMJc78GYV2E0kooHDubUImWkTOhGpgv8PoT8DJG/bzxna4BZ0eOFSOaLADGeSpFsg5AzeaDZIDQQXjZ4y/8ryfzUXBwdELRjTjCNvOeT0rNlrJz90vwy6N9pXXQEluX0inElpPWokSdiLCfiNJJjMKQ8Qsh8GEKQKMo/eiHrNbI9UksAAAAASUVORK5CYII=");}
+.colorpicker-right:before{left:auto;right:6px;}
+.colorpicker-right:after{left:auto;right:7px;}
+.colorpicker-no-arrow:before{border-right:0;border-left:0;}
+.colorpicker-no-arrow:after {border-right:0;border-left:0;}
+.colorpicker.colorpicker-visible,
+.colorpicker-alpha.colorpicker-visible,
+.colorpicker-saturation.colorpicker-visible,
+.colorpicker-hue.colorpicker-visible,
+.colorpicker-selectors.colorpicker-visible{display:block;}
+.colorpicker.colorpicker-hidden,
+.colorpicker-alpha.colorpicker-hidden,
+.colorpicker-saturation.colorpicker-hidden,
+.colorpicker-hue.colorpicker-hidden,
+.colorpicker-selectors.colorpicker-hidden{display:none;}
+.colorpicker-inline.colorpicker-visible{display:inline-block;}
+.daterangepicker{
+  position: absolute;
+  color: inherit;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 278px;
+  padding: 4px;
+  margin-top: 1px;
+  top: 100px;
+  left: 20px;
+  /* Calendars */ }
+  .daterangepicker:before, .daterangepicker:after {
+    position: absolute;
+    display: inline-block;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    content: ''; }
+  .daterangepicker:before {
+    top: -7px;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid #ccc; }
+  .daterangepicker:after {
+    top: -6px;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #fff;
+    border-left: 6px solid transparent; }
+  .daterangepicker.opensleft:before {
+    right: 9px; }
+  .daterangepicker.opensleft:after {
+    right: 10px; }
+  .daterangepicker.openscenter:before {
+    left: 0;
+    right: 0;
+    width: 0;
+    margin-left: auto;
+    margin-right: auto; }
+  .daterangepicker.openscenter:after {
+    left: 0;
+    right: 0;
+    width: 0;
+    margin-left: auto;
+    margin-right: auto; }
+  .daterangepicker.opensright:before {
+    left: 9px; }
+  .daterangepicker.opensright:after {
+    left: 10px; }
+  .daterangepicker.dropup {
+    margin-top: -5px; }
+    .daterangepicker.dropup:before {
+      top: initial;
+      bottom: -7px;
+      border-bottom: initial;
+      border-top: 7px solid #ccc; }
+    .daterangepicker.dropup:after {
+      top: initial;
+      bottom: -6px;
+      border-bottom: initial;
+      border-top: 6px solid #fff; }
+  .daterangepicker.dropdown-menu {
+    max-width: none;
+    z-index: 3001; }
+  .daterangepicker.single .ranges, .daterangepicker.single .calendar {
+    float: none; }
+  .daterangepicker.show-calendar .calendar {
+    display: block; }
+  .daterangepicker .calendar {
+    display: none;
+    max-width: 270px;
+    margin: 4px; }
+    .daterangepicker .calendar.single .calendar-table {
+      border: none; }
+    .daterangepicker .calendar th, .daterangepicker .calendar td {
+      white-space: nowrap;
+      text-align: center;
+      min-width: 32px; }
+  .daterangepicker .calendar-table {
+    border: 1px solid #fff;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #fff; }
+  .daterangepicker table {
+    width: 100%;
+    margin: 0; }
+  .daterangepicker td, .daterangepicker th {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    cursor: pointer; }
+    .daterangepicker td.available:hover, .daterangepicker th.available:hover {
+      background-color: #eee;
+      border-color: transparent;
+      color: inherit; }
+    .daterangepicker td.week, .daterangepicker th.week {
+      font-size: 80%;
+      color: #ccc; }
+  .daterangepicker td.off, .daterangepicker td.off.in-range, .daterangepicker td.off.start-date, .daterangepicker td.off.end-date {
+    background-color: #fff;
+    border-color: transparent;
+    color: #999; }
+  .daterangepicker td.in-range {
+    background-color: #ebf4f8;
+    border-color: transparent;
+    color: #000;
+    border-radius: 0; }
+  .daterangepicker td.start-date {
+    border-radius: 4px 0 0 4px; }
+  .daterangepicker td.end-date {
+    border-radius: 0 4px 4px 0; }
+  .daterangepicker td.start-date.end-date {
+    border-radius: 4px; }
+  .daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #357ebd;
+    border-color: transparent;
+    color: #fff; }
+  .daterangepicker th.month {
+    width: auto; }
+  .daterangepicker td.disabled, .daterangepicker option.disabled {
+    color: #999;
+    cursor: not-allowed;
+    text-decoration: line-through; }
+  .daterangepicker select.monthselect, .daterangepicker select.yearselect {
+    font-size: 12px;
+    padding: 1px;
+    height: auto;
+    margin: 0;
+    cursor: default; }
+  .daterangepicker select.monthselect {
+    margin-right: 2%;
+    width: 56%; }
+  .daterangepicker select.yearselect {
+    width: 40%; }
+  .daterangepicker select.hourselect, .daterangepicker select.minuteselect, .daterangepicker select.secondselect, .daterangepicker select.ampmselect {
+    width: 50px;
+    margin-bottom: 0; }
+  .daterangepicker .input-mini {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    vertical-align: middle;
+    margin: 0 0 5px 0;
+    padding: 0 6px 0 28px;
+    width: 100%; }
+    .daterangepicker .input-mini.active {
+      border: 1px solid #08c;
+      border-radius: 4px; }
+  .daterangepicker .daterangepicker_input {
+    position: relative; }
+    .daterangepicker .daterangepicker_input i {
+      position: absolute;
+      left: 8px;
+      top: 8px; }
+  .daterangepicker.rtl .input-mini {
+    padding-right: 28px;
+    padding-left: 6px; }
+  .daterangepicker.rtl .daterangepicker_input i {
+    left: auto;
+    right: 8px; }
+  .daterangepicker .calendar-time {
+    text-align: center;
+    margin: 5px auto;
+    line-height: 30px;
+    position: relative;
+    padding-left: 28px; }
+    .daterangepicker .calendar-time select.disabled {
+      color: #ccc;
+      cursor: not-allowed; }
+
+.ranges {
+  font-size: 11px;
+  float: none;
+  margin: 4px;
+  text-align: left; }
+  .ranges ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%; }
+  .ranges li {
+    font-size: 13px;
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    border-radius: 4px;
+    color: #08c;
+    padding: 3px 12px;
+    margin-bottom: 8px;
+    cursor: pointer; }
+    .ranges li:hover {
+      background-color: #08c;
+      border: 1px solid #08c;
+      color: #fff; }
+    .ranges li.active {
+      background-color: #08c;
+      border: 1px solid #08c;
+      color: #fff; }
+
+/*  Larger Screen Styling */
+@media (min-width: 564px) {
+  .daterangepicker {
+    width: auto; }
+    .daterangepicker .ranges ul {
+      width: 160px; }
+    .daterangepicker.single .ranges ul {
+      width: 100%; }
+    .daterangepicker.single .calendar.left {
+      clear: none; }
+    .daterangepicker.single.ltr .ranges, .daterangepicker.single.ltr .calendar {
+      float: left; }
+    .daterangepicker.single.rtl .ranges, .daterangepicker.single.rtl .calendar {
+      float: right; }
+    .daterangepicker.ltr {
+      direction: ltr;
+      text-align: left; }
+      .daterangepicker.ltr .calendar.left {
+        clear: left;
+        margin-right: 0; }
+        .daterangepicker.ltr .calendar.left .calendar-table {
+          border-right: none;
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0; }
+      .daterangepicker.ltr .calendar.right {
+        margin-left: 0; }
+        .daterangepicker.ltr .calendar.right .calendar-table {
+          border-left: none;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0; }
+      .daterangepicker.ltr .left .daterangepicker_input {
+        padding-right: 12px; }
+      .daterangepicker.ltr .calendar.left .calendar-table {
+        padding-right: 12px; }
+      .daterangepicker.ltr .ranges, .daterangepicker.ltr .calendar {
+        float: left; }
+    .daterangepicker.rtl {
+      direction: rtl;
+      text-align: right; }
+      .daterangepicker.rtl .calendar.left {
+        clear: right;
+        margin-left: 0; }
+        .daterangepicker.rtl .calendar.left .calendar-table {
+          border-left: none;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0; }
+      .daterangepicker.rtl .calendar.right {
+        margin-right: 0; }
+        .daterangepicker.rtl .calendar.right .calendar-table {
+          border-right: none;
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0; }
+      .daterangepicker.rtl .left .daterangepicker_input {
+        padding-left: 12px; }
+      .daterangepicker.rtl .calendar.left .calendar-table {
+        padding-left: 12px; }
+      .daterangepicker.rtl .ranges, .daterangepicker.rtl .calendar {
+        text-align: right;
+        float: right; } }
+@media (min-width: 730px){
+.daterangepicker .ranges{width:auto;}
+.daterangepicker.ltr .ranges{float:left;}
+.daterangepicker.rtl .ranges{float:right;}
+.daterangepicker .calendar.left{clear:none!important;}}
+
+/*!
+ * Datepicker for Bootstrap v1.7.1 (https://github.com/uxsolutions/bootstrap-datepicker)
+ *
+ * Licensed under the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+ */
+
+.datepicker {
+  border-radius: 4px;
+  direction: ltr;
+}
+.datepicker-inline {
+  width: 220px;
+}
+.datepicker-rtl {
+  direction: rtl;
+}
+.datepicker-rtl.dropdown-menu {
+  left: auto;
+}
+.datepicker-rtl table tr td span {
+  float: right;
+}
+.datepicker-dropdown {
+  top: 0;
+  left: 0;
+  padding: 4px;
+}
+.datepicker-dropdown:before {
+  content: '';
+  display: inline-block;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid rgba(0, 0, 0, 0.15);
+  border-top: 0;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+}
+.datepicker-dropdown:after {
+  content: '';
+  display: inline-block;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #fff;
+  border-top: 0;
+  position: absolute;
+}
+.datepicker-dropdown.datepicker-orient-left:before {
+  left: 6px;
+}
+.datepicker-dropdown.datepicker-orient-left:after {
+  left: 7px;
+}
+.datepicker-dropdown.datepicker-orient-right:before {
+  right: 6px;
+}
+.datepicker-dropdown.datepicker-orient-right:after {
+  right: 7px;
+}
+.datepicker-dropdown.datepicker-orient-bottom:before {
+  top: -7px;
+}
+.datepicker-dropdown.datepicker-orient-bottom:after {
+  top: -6px;
+}
+.datepicker-dropdown.datepicker-orient-top:before {
+  bottom: -7px;
+  border-bottom: 0;
+  border-top: 7px solid rgba(0, 0, 0, 0.15);
+}
+.datepicker-dropdown.datepicker-orient-top:after {
+  bottom: -6px;
+  border-bottom: 0;
+  border-top: 6px solid #fff;
+}
+.datepicker table {
+  margin: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.datepicker table tr td,
+.datepicker table tr th {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+}
+.table-striped .datepicker table tr td,
+.table-striped .datepicker table tr th {
+  background-color: transparent;
+}
+.datepicker table tr td.old,
+.datepicker table tr td.new {
+  color: #777777;
+}
+.datepicker table tr td.day:hover,
+.datepicker table tr td.focused {
+  background: #eeeeee;
+  cursor: pointer;
+}
+.datepicker table tr td.disabled,
+.datepicker table tr td.disabled:hover {
+  background: none;
+  color: #777777;
+  cursor: default;
+}
+.datepicker table tr td.highlighted {
+  color: #000;
+  background-color: #d9edf7;
+  border-color: #85c5e5;
+  border-radius: 0;
+}
+.datepicker table tr td.highlighted:focus,
+.datepicker table tr td.highlighted.focus {
+  color: #000;
+  background-color: #afd9ee;
+  border-color: #298fc2;
+}
+.datepicker table tr td.highlighted:hover {
+  color: #000;
+  background-color: #afd9ee;
+  border-color: #52addb;
+}
+.datepicker table tr td.highlighted:active,
+.datepicker table tr td.highlighted.active {
+  color: #000;
+  background-color: #afd9ee;
+  border-color: #52addb;
+}
+.datepicker table tr td.highlighted:active:hover,
+.datepicker table tr td.highlighted.active:hover,
+.datepicker table tr td.highlighted:active:focus,
+.datepicker table tr td.highlighted.active:focus,
+.datepicker table tr td.highlighted:active.focus,
+.datepicker table tr td.highlighted.active.focus {
+  color: #000;
+  background-color: #91cbe8;
+  border-color: #298fc2;
+}
+.datepicker table tr td.highlighted.disabled:hover,
+.datepicker table tr td.highlighted[disabled]:hover,
+fieldset[disabled] .datepicker table tr td.highlighted:hover,
+.datepicker table tr td.highlighted.disabled:focus,
+.datepicker table tr td.highlighted[disabled]:focus,
+fieldset[disabled] .datepicker table tr td.highlighted:focus,
+.datepicker table tr td.highlighted.disabled.focus,
+.datepicker table tr td.highlighted[disabled].focus,
+fieldset[disabled] .datepicker table tr td.highlighted.focus {
+  background-color: #d9edf7;
+  border-color: #85c5e5;
+}
+.datepicker table tr td.highlighted.focused {
+  background: #afd9ee;
+}
+.datepicker table tr td.highlighted.disabled,
+.datepicker table tr td.highlighted.disabled:active {
+  background: #d9edf7;
+  color: #777777;
+}
+.datepicker table tr td.today {
+  color: #000;
+  background-color: #ffdb99;
+  border-color: #ffb733;
+}
+.datepicker table tr td.today:focus,
+.datepicker table tr td.today.focus {
+  color: #000;
+  background-color: #ffc966;
+  border-color: #b37400;
+}
+.datepicker table tr td.today:hover {
+  color: #000;
+  background-color: #ffc966;
+  border-color: #f59e00;
+}
+.datepicker table tr td.today:active,
+.datepicker table tr td.today.active {
+  color: #000;
+  background-color: #ffc966;
+  border-color: #f59e00;
+}
+.datepicker table tr td.today:active:hover,
+.datepicker table tr td.today.active:hover,
+.datepicker table tr td.today:active:focus,
+.datepicker table tr td.today.active:focus,
+.datepicker table tr td.today:active.focus,
+.datepicker table tr td.today.active.focus {
+  color: #000;
+  background-color: #ffbc42;
+  border-color: #b37400;
+}
+.datepicker table tr td.today.disabled:hover,
+.datepicker table tr td.today[disabled]:hover,
+fieldset[disabled] .datepicker table tr td.today:hover,
+.datepicker table tr td.today.disabled:focus,
+.datepicker table tr td.today[disabled]:focus,
+fieldset[disabled] .datepicker table tr td.today:focus,
+.datepicker table tr td.today.disabled.focus,
+.datepicker table tr td.today[disabled].focus,
+fieldset[disabled] .datepicker table tr td.today.focus {
+  background-color: #ffdb99;
+  border-color: #ffb733;
+}
+.datepicker table tr td.today.focused {
+  background: #ffc966;
+}
+.datepicker table tr td.today.disabled,
+.datepicker table tr td.today.disabled:active {
+  background: #ffdb99;
+  color: #777777;
+}
+.datepicker table tr td.range {
+  color: #000;
+  background-color: #eeeeee;
+  border-color: #bbbbbb;
+  border-radius: 0;
+}
+.datepicker table tr td.range:focus,
+.datepicker table tr td.range.focus {
+  color: #000;
+  background-color: #d5d5d5;
+  border-color: #7c7c7c;
+}
+.datepicker table tr td.range:hover {
+  color: #000;
+  background-color: #d5d5d5;
+  border-color: #9d9d9d;
+}
+.datepicker table tr td.range:active,
+.datepicker table tr td.range.active {
+  color: #000;
+  background-color: #d5d5d5;
+  border-color: #9d9d9d;
+}
+.datepicker table tr td.range:active:hover,
+.datepicker table tr td.range.active:hover,
+.datepicker table tr td.range:active:focus,
+.datepicker table tr td.range.active:focus,
+.datepicker table tr td.range:active.focus,
+.datepicker table tr td.range.active.focus {
+  color: #000;
+  background-color: #c3c3c3;
+  border-color: #7c7c7c;
+}
+.datepicker table tr td.range.disabled:hover,
+.datepicker table tr td.range[disabled]:hover,
+fieldset[disabled] .datepicker table tr td.range:hover,
+.datepicker table tr td.range.disabled:focus,
+.datepicker table tr td.range[disabled]:focus,
+fieldset[disabled] .datepicker table tr td.range:focus,
+.datepicker table tr td.range.disabled.focus,
+.datepicker table tr td.range[disabled].focus,
+fieldset[disabled] .datepicker table tr td.range.focus {
+  background-color: #eeeeee;
+  border-color: #bbbbbb;
+}
+.datepicker table tr td.range.focused {
+  background: #d5d5d5;
+}
+.datepicker table tr td.range.disabled,
+.datepicker table tr td.range.disabled:active {
+  background: #eeeeee;
+  color: #777777;
+}
+.datepicker table tr td.range.highlighted {
+  color: #000;
+  background-color: #e4eef3;
+  border-color: #9dc1d3;
+}
+.datepicker table tr td.range.highlighted:focus,
+.datepicker table tr td.range.highlighted.focus {
+  color: #000;
+  background-color: #c1d7e3;
+  border-color: #4b88a6;
+}
+.datepicker table tr td.range.highlighted:hover {
+  color: #000;
+  background-color: #c1d7e3;
+  border-color: #73a6c0;
+}
+.datepicker table tr td.range.highlighted:active,
+.datepicker table tr td.range.highlighted.active {
+  color: #000;
+  background-color: #c1d7e3;
+  border-color: #73a6c0;
+}
+.datepicker table tr td.range.highlighted:active:hover,
+.datepicker table tr td.range.highlighted.active:hover,
+.datepicker table tr td.range.highlighted:active:focus,
+.datepicker table tr td.range.highlighted.active:focus,
+.datepicker table tr td.range.highlighted:active.focus,
+.datepicker table tr td.range.highlighted.active.focus {
+  color: #000;
+  background-color: #a8c8d8;
+  border-color: #4b88a6;
+}
+.datepicker table tr td.range.highlighted.disabled:hover,
+.datepicker table tr td.range.highlighted[disabled]:hover,
+fieldset[disabled] .datepicker table tr td.range.highlighted:hover,
+.datepicker table tr td.range.highlighted.disabled:focus,
+.datepicker table tr td.range.highlighted[disabled]:focus,
+fieldset[disabled] .datepicker table tr td.range.highlighted:focus,
+.datepicker table tr td.range.highlighted.disabled.focus,
+.datepicker table tr td.range.highlighted[disabled].focus,
+fieldset[disabled] .datepicker table tr td.range.highlighted.focus {
+  background-color: #e4eef3;
+  border-color: #9dc1d3;
+}
+.datepicker table tr td.range.highlighted.focused {
+  background: #c1d7e3;
+}
+.datepicker table tr td.range.highlighted.disabled,
+.datepicker table tr td.range.highlighted.disabled:active {
+  background: #e4eef3;
+  color: #777777;
+}
+.datepicker table tr td.range.today {
+  color: #000;
+  background-color: #f7ca77;
+  border-color: #f1a417;
+}
+.datepicker table tr td.range.today:focus,
+.datepicker table tr td.range.today.focus {
+  color: #000;
+  background-color: #f4b747;
+  border-color: #815608;
+}
+.datepicker table tr td.range.today:hover {
+  color: #000;
+  background-color: #f4b747;
+  border-color: #bf800c;
+}
+.datepicker table tr td.range.today:active,
+.datepicker table tr td.range.today.active {
+  color: #000;
+  background-color: #f4b747;
+  border-color: #bf800c;
+}
+.datepicker table tr td.range.today:active:hover,
+.datepicker table tr td.range.today.active:hover,
+.datepicker table tr td.range.today:active:focus,
+.datepicker table tr td.range.today.active:focus,
+.datepicker table tr td.range.today:active.focus,
+.datepicker table tr td.range.today.active.focus {
+  color: #000;
+  background-color: #f2aa25;
+  border-color: #815608;
+}
+.datepicker table tr td.range.today.disabled:hover,
+.datepicker table tr td.range.today[disabled]:hover,
+fieldset[disabled] .datepicker table tr td.range.today:hover,
+.datepicker table tr td.range.today.disabled:focus,
+.datepicker table tr td.range.today[disabled]:focus,
+fieldset[disabled] .datepicker table tr td.range.today:focus,
+.datepicker table tr td.range.today.disabled.focus,
+.datepicker table tr td.range.today[disabled].focus,
+fieldset[disabled] .datepicker table tr td.range.today.focus {
+  background-color: #f7ca77;
+  border-color: #f1a417;
+}
+.datepicker table tr td.range.today.disabled,
+.datepicker table tr td.range.today.disabled:active {
+  background: #f7ca77;
+  color: #777777;
+}
+.datepicker table tr td.selected,
+.datepicker table tr td.selected.highlighted {
+  color: #fff;
+  background-color: #777777;
+  border-color: #555555;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.datepicker table tr td.selected:focus,
+.datepicker table tr td.selected.highlighted:focus,
+.datepicker table tr td.selected.focus,
+.datepicker table tr td.selected.highlighted.focus {
+  color: #fff;
+  background-color: #5e5e5e;
+  border-color: #161616;
+}
+.datepicker table tr td.selected:hover,
+.datepicker table tr td.selected.highlighted:hover {
+  color: #fff;
+  background-color: #5e5e5e;
+  border-color: #373737;
+}
+.datepicker table tr td.selected:active,
+.datepicker table tr td.selected.highlighted:active,
+.datepicker table tr td.selected.active,
+.datepicker table tr td.selected.highlighted.active {
+  color: #fff;
+  background-color: #5e5e5e;
+  border-color: #373737;
+}
+.datepicker table tr td.selected:active:hover,
+.datepicker table tr td.selected.highlighted:active:hover,
+.datepicker table tr td.selected.active:hover,
+.datepicker table tr td.selected.highlighted.active:hover,
+.datepicker table tr td.selected:active:focus,
+.datepicker table tr td.selected.highlighted:active:focus,
+.datepicker table tr td.selected.active:focus,
+.datepicker table tr td.selected.highlighted.active:focus,
+.datepicker table tr td.selected:active.focus,
+.datepicker table tr td.selected.highlighted:active.focus,
+.datepicker table tr td.selected.active.focus,
+.datepicker table tr td.selected.highlighted.active.focus {
+  color: #fff;
+  background-color: #4c4c4c;
+  border-color: #161616;
+}
+.datepicker table tr td.selected.disabled:hover,
+.datepicker table tr td.selected.highlighted.disabled:hover,
+.datepicker table tr td.selected[disabled]:hover,
+.datepicker table tr td.selected.highlighted[disabled]:hover,
+fieldset[disabled] .datepicker table tr td.selected:hover,
+fieldset[disabled] .datepicker table tr td.selected.highlighted:hover,
+.datepicker table tr td.selected.disabled:focus,
+.datepicker table tr td.selected.highlighted.disabled:focus,
+.datepicker table tr td.selected[disabled]:focus,
+.datepicker table tr td.selected.highlighted[disabled]:focus,
+fieldset[disabled] .datepicker table tr td.selected:focus,
+fieldset[disabled] .datepicker table tr td.selected.highlighted:focus,
+.datepicker table tr td.selected.disabled.focus,
+.datepicker table tr td.selected.highlighted.disabled.focus,
+.datepicker table tr td.selected[disabled].focus,
+.datepicker table tr td.selected.highlighted[disabled].focus,
+fieldset[disabled] .datepicker table tr td.selected.focus,
+fieldset[disabled] .datepicker table tr td.selected.highlighted.focus {
+  background-color: #777777;
+  border-color: #555555;
+}
+.datepicker table tr td.active,
+.datepicker table tr td.active.highlighted {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.datepicker table tr td.active:focus,
+.datepicker table tr td.active.highlighted:focus,
+.datepicker table tr td.active.focus,
+.datepicker table tr td.active.highlighted.focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active.highlighted:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.datepicker table tr td.active:active,
+.datepicker table tr td.active.highlighted:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.highlighted.active {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.datepicker table tr td.active:active:hover,
+.datepicker table tr td.active.highlighted:active:hover,
+.datepicker table tr td.active.active:hover,
+.datepicker table tr td.active.highlighted.active:hover,
+.datepicker table tr td.active:active:focus,
+.datepicker table tr td.active.highlighted:active:focus,
+.datepicker table tr td.active.active:focus,
+.datepicker table tr td.active.highlighted.active:focus,
+.datepicker table tr td.active:active.focus,
+.datepicker table tr td.active.highlighted:active.focus,
+.datepicker table tr td.active.active.focus,
+.datepicker table tr td.active.highlighted.active.focus {
+  color: #fff;
+  background-color: #204d74;
+  border-color: #122b40;
+}
+.datepicker table tr td.active.disabled:hover,
+.datepicker table tr td.active.highlighted.disabled:hover,
+.datepicker table tr td.active[disabled]:hover,
+.datepicker table tr td.active.highlighted[disabled]:hover,
+fieldset[disabled] .datepicker table tr td.active:hover,
+fieldset[disabled] .datepicker table tr td.active.highlighted:hover,
+.datepicker table tr td.active.disabled:focus,
+.datepicker table tr td.active.highlighted.disabled:focus,
+.datepicker table tr td.active[disabled]:focus,
+.datepicker table tr td.active.highlighted[disabled]:focus,
+fieldset[disabled] .datepicker table tr td.active:focus,
+fieldset[disabled] .datepicker table tr td.active.highlighted:focus,
+.datepicker table tr td.active.disabled.focus,
+.datepicker table tr td.active.highlighted.disabled.focus,
+.datepicker table tr td.active[disabled].focus,
+.datepicker table tr td.active.highlighted[disabled].focus,
+fieldset[disabled] .datepicker table tr td.active.focus,
+fieldset[disabled] .datepicker table tr td.active.highlighted.focus {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.datepicker table tr td span {
+  display: block;
+  width: 23%;
+  height: 54px;
+  line-height: 54px;
+  float: left;
+  margin: 1%;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.datepicker table tr td span:hover,
+.datepicker table tr td span.focused {
+  background: #eeeeee;
+}
+.datepicker table tr td span.disabled,
+.datepicker table tr td span.disabled:hover {
+  background: none;
+  color: #777777;
+  cursor: default;
+}
+.datepicker table tr td span.active,
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active.disabled:hover {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.datepicker table tr td span.active:focus,
+.datepicker table tr td span.active:hover:focus,
+.datepicker table tr td span.active.disabled:focus,
+.datepicker table tr td span.active.disabled:hover:focus,
+.datepicker table tr td span.active.focus,
+.datepicker table tr td span.active:hover.focus,
+.datepicker table tr td span.active.disabled.focus,
+.datepicker table tr td span.active.disabled:hover.focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active:hover:hover,
+.datepicker table tr td span.active.disabled:hover,
+.datepicker table tr td span.active.disabled:hover:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.datepicker table tr td span.active:active,
+.datepicker table tr td span.active:hover:active,
+.datepicker table tr td span.active.disabled:active,
+.datepicker table tr td span.active.disabled:hover:active,
+.datepicker table tr td span.active.active,
+.datepicker table tr td span.active:hover.active,
+.datepicker table tr td span.active.disabled.active,
+.datepicker table tr td span.active.disabled:hover.active {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.datepicker table tr td span.active:active:hover,
+.datepicker table tr td span.active:hover:active:hover,
+.datepicker table tr td span.active.disabled:active:hover,
+.datepicker table tr td span.active.disabled:hover:active:hover,
+.datepicker table tr td span.active.active:hover,
+.datepicker table tr td span.active:hover.active:hover,
+.datepicker table tr td span.active.disabled.active:hover,
+.datepicker table tr td span.active.disabled:hover.active:hover,
+.datepicker table tr td span.active:active:focus,
+.datepicker table tr td span.active:hover:active:focus,
+.datepicker table tr td span.active.disabled:active:focus,
+.datepicker table tr td span.active.disabled:hover:active:focus,
+.datepicker table tr td span.active.active:focus,
+.datepicker table tr td span.active:hover.active:focus,
+.datepicker table tr td span.active.disabled.active:focus,
+.datepicker table tr td span.active.disabled:hover.active:focus,
+.datepicker table tr td span.active:active.focus,
+.datepicker table tr td span.active:hover:active.focus,
+.datepicker table tr td span.active.disabled:active.focus,
+.datepicker table tr td span.active.disabled:hover:active.focus,
+.datepicker table tr td span.active.active.focus,
+.datepicker table tr td span.active:hover.active.focus,
+.datepicker table tr td span.active.disabled.active.focus,
+.datepicker table tr td span.active.disabled:hover.active.focus {
+  color: #fff;
+  background-color: #204d74;
+  border-color: #122b40;
+}
+.datepicker table tr td span.active.disabled:hover,
+.datepicker table tr td span.active:hover.disabled:hover,
+.datepicker table tr td span.active.disabled.disabled:hover,
+.datepicker table tr td span.active.disabled:hover.disabled:hover,
+.datepicker table tr td span.active[disabled]:hover,
+.datepicker table tr td span.active:hover[disabled]:hover,
+.datepicker table tr td span.active.disabled[disabled]:hover,
+.datepicker table tr td span.active.disabled:hover[disabled]:hover,
+fieldset[disabled] .datepicker table tr td span.active:hover,
+fieldset[disabled] .datepicker table tr td span.active:hover:hover,
+fieldset[disabled] .datepicker table tr td span.active.disabled:hover,
+fieldset[disabled] .datepicker table tr td span.active.disabled:hover:hover,
+.datepicker table tr td span.active.disabled:focus,
+.datepicker table tr td span.active:hover.disabled:focus,
+.datepicker table tr td span.active.disabled.disabled:focus,
+.datepicker table tr td span.active.disabled:hover.disabled:focus,
+.datepicker table tr td span.active[disabled]:focus,
+.datepicker table tr td span.active:hover[disabled]:focus,
+.datepicker table tr td span.active.disabled[disabled]:focus,
+.datepicker table tr td span.active.disabled:hover[disabled]:focus,
+fieldset[disabled] .datepicker table tr td span.active:focus,
+fieldset[disabled] .datepicker table tr td span.active:hover:focus,
+fieldset[disabled] .datepicker table tr td span.active.disabled:focus,
+fieldset[disabled] .datepicker table tr td span.active.disabled:hover:focus,
+.datepicker table tr td span.active.disabled.focus,
+.datepicker table tr td span.active:hover.disabled.focus,
+.datepicker table tr td span.active.disabled.disabled.focus,
+.datepicker table tr td span.active.disabled:hover.disabled.focus,
+.datepicker table tr td span.active[disabled].focus,
+.datepicker table tr td span.active:hover[disabled].focus,
+.datepicker table tr td span.active.disabled[disabled].focus,
+.datepicker table tr td span.active.disabled:hover[disabled].focus,
+fieldset[disabled] .datepicker table tr td span.active.focus,
+fieldset[disabled] .datepicker table tr td span.active:hover.focus,
+fieldset[disabled] .datepicker table tr td span.active.disabled.focus,
+fieldset[disabled] .datepicker table tr td span.active.disabled:hover.focus {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.datepicker table tr td span.old,
+.datepicker table tr td span.new {
+  color: #777777;
+}
+.datepicker .datepicker-switch {
+  width: 145px;
+}
+.datepicker .datepicker-switch,
+.datepicker .prev,
+.datepicker .next,
+.datepicker tfoot tr th {
+  cursor: pointer;
+}
+.datepicker .datepicker-switch:hover,
+.datepicker .prev:hover,
+.datepicker .next:hover,
+.datepicker tfoot tr th:hover {
+  background: #eeeeee;
+}
+.datepicker .prev.disabled,
+.datepicker .next.disabled {
+  visibility: hidden;
+}
+.datepicker .cw {
+  font-size: 10px;
+  width: 12px;
+  padding: 0 2px 0 5px;
+  vertical-align: middle;
+}
+.input-group.date .input-group-addon {
+  cursor: pointer;
+}
+.input-daterange {
+  width: 100%;
+}
+.input-daterange input {
+  text-align: center;
+}
+.input-daterange input:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.input-daterange input:last-child {
+  border-radius: 0 3px 3px 0;
+}
+.input-daterange .input-group-addon {
+  width: auto;
+  min-width: 16px;
+  padding: 4px 5px;
+  line-height: 1.42857143;
+  text-shadow: 0 1px 0 #fff;
+  border-width: 1px 0;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+
